@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Hero from "../components/Hero"
 import About from "../components/About"
+import RecentWork from "../components/RecentWork"
+import More from "../components/More"
 import NavBar from "../components/NavBar/Index"
 
 export default function Home() {
@@ -24,6 +26,8 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <RecentWork />
+        <More />
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t"></footer>
