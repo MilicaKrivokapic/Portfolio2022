@@ -30,7 +30,7 @@ export default function Home() {
         <More />
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t"></footer>
+      <footer className=""></footer>
     </>
   )
 }
