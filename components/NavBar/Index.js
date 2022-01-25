@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className="flex flex-row justify-between items-center pt-3">
       <h1 className=" mx-7 font-Quick font-bold text-jazzberry-jam text-xl hidden">
-        <Image src={Bunny} ariaHidden="true" /> Milican portfolio
+        <Image src={Bunny} aria-hidden="true" /> Milican portfolio
       </h1>
       <DesktopNav />
     </nav>
