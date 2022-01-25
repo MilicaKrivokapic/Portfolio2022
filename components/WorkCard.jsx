@@ -30,7 +30,7 @@ export default function WorkCard({
             {cardName}
           </h3>
           <button
-            className={`font-Work ${btnColor} font-semibold text-black rounded-xl py-2 px-4`}
+            className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4  ${shadow} `}
           >
             <a className="" href={link}>
               Katso lisätietoja
