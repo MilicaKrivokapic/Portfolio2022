@@ -1,3 +1,1 @@
-# Welcome!
-
-this is my portfolio.
+# Tervetuloa katselemaan portfolioni koodia!

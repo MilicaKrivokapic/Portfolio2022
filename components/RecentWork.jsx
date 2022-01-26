@@ -60,7 +60,7 @@ export default function RecentWork() {
           shadow={"shadow-sm shadow-emerald-900"}
         >
           {" "}
-          <p class=" bg-red-600 text-white p-2 rounded leading-none flex items-center font-Work font-semibold drop-shadow-md mb-9">
+          <p className=" bg-red-600 text-white p-2 rounded leading-none flex items-center font-Work font-semibold drop-shadow-md mb-9">
             Coming soon!
           </p>
         </WorkCard>
