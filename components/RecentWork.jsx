@@ -12,7 +12,7 @@ export default function RecentWork() {
         <h2 className="font-Quick font-bold text-2xl">
           Viimeaikaisia projektejani
         </h2>
-        <p className="items-center w-5/6 font-Work xl:w-[50rem] pt-4 text-sm md:text-lg">
+        <div className="items-center w-5/6 font-Work xl:w-[50rem] pt-4 text-sm md:text-lg">
           Tässä muutamia lähiaikoina toteuttamiani sivustoja.{" "}
           <p>
             Mikäli haluat nähdä media-alan portfolioni, tsekkaa se osoitteessa{" "}
@@ -27,7 +27,7 @@ export default function RecentWork() {
             Mikäli haluat jutella enemmän projekteistani, tai palkata minut
             esimerkiksi freelanceriksi projektiin, ota yhteyttä.
           </p> */}
-        </p>
+        </div>
       </div>
       <div className="grid grid-cols-1 w-5/6 2xl:grid-cols-3 md:grid-cols-2 py-8 md:py-20 gap-8">
         <WorkCard
