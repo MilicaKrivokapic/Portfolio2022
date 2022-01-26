@@ -25,7 +25,7 @@ const About = () => {
             <div className="w-14 text-white bg-indigo-800 rounded-2xl p-2 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="ionicon"
+                className="ionicon"
                 viewBox="0 0 512 512"
               >
                 <path

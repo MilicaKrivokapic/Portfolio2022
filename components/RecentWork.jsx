@@ -32,7 +32,7 @@ export default function RecentWork() {
       <div className="grid grid-cols-1 w-5/6 2xl:grid-cols-3 md:grid-cols-2 py-8 md:py-20 gap-8">
         <WorkCard
           cardName={"Hexenhammer"}
-          cardColor={"bg-indigo-500/60"}
+          cardColor={"bg-indigo-900/90"}
           bgImage={hexenhammer}
           btnColor={"bg-red-700"}
           shadow={"shadow-sm shadow-red-900"}
