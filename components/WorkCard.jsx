@@ -24,7 +24,7 @@ export default function WorkCard({
         >
           <div className={` ${cardColor} w-full h-full  `} />
         </div>
-        <div className="opacity-0 hover:opacity-100 h-full w-full flex flex-col items-center justify-center row-start-1 row-span-1 col-start-1 col-span-1 p-6  backdrop-blur-sm group-hover:transition duration-500 ease-out group-hover:ease-in-out group-hover:contrast-50 ">
+        <div className="opacity-0 hover:opacity-100 h-full w-full flex flex-col items-center justify-center row-start-1 row-span-1 col-start-1 col-span-1 p-6  blurred group-hover:transition duration-500 ease-out group-hover:ease-in-out group-hover:contrast-50 ">
           {children}
           <h3 className="text-white text-center font-Work font-bold mb-6 text-2xl drop-shadow-2xl xl:mb-13 ">
             {cardName}

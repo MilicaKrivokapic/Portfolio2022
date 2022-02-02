@@ -32,14 +32,16 @@ export default function RecentWork() {
       <div className="grid grid-cols-1 w-5/6 2xl:grid-cols-3 md:grid-cols-2 py-8 md:py-20 gap-8">
         <WorkCard
           cardName={"Hexenhammer"}
-          cardColor={"bg-indigo-900/90"}
+          cardColor={"bg-gradient-to-b from-blue-800/80 to-fuchsia-blue-900/80"}
           bgImage={hexenhammer}
           btnColor={"bg-red-700"}
           shadow={"shadow-sm shadow-red-900"}
         />
         <WorkCard
           cardName={"Norsupeli"}
-          cardColor={" bg-indigo-700/60"}
+          cardColor={
+            " bg-gradient-to-b from-blue-800/90 to-fuchsia-blue-900/90"
+          }
           bgImage={norsupeli}
           bgSize="contain"
           btnColor={"bg-pink-600"}
@@ -47,14 +49,14 @@ export default function RecentWork() {
         />
         <WorkCard
           cardName={"Digitalents"}
-          cardColor={"bg-indigo-600/60"}
+          cardColor={"bg-gradient-to-b from-blue-900/90 to-fuchsia-blue-900/80"}
           bgImage={digitalents}
           btnColor={"bg-yellow-500"}
           shadow={"shadow-sm shadow-yellow-900"}
         />
         <WorkCard
           cardName={"Achievely"}
-          cardColor={"bg-indigo-700/60"}
+          cardColor={"bg-gradient-to-b from-blue-900/80 to-fuchsia-blue-900/90"}
           btnColor={"bg-emerald-500"}
           bgImage={achievely}
           shadow={"shadow-sm shadow-emerald-900"}

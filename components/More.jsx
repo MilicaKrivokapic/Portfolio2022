@@ -8,7 +8,7 @@ export default function More() {
         <div className="flex items-center justify-center w-5/6 h-24 border-t"></div>
       </div> */}
       <div className="w-full flex justify-center">
-        <div className="flex lg:flex-row-reverse flex-col justify-around mb-64 bg-gradient-to-b md:bg-gradient-to-l from-[#010307] to-[#00003A] text-white py-20 w-full px-7 xl:px-20 lg:w-5/6 lg:rounded-2xl mt-40">
+        <div className="flex lg:flex-row-reverse flex-col justify-around mb-32 bg-gradient-to-b md:bg-gradient-to-l from-[#010307] to-[#00003A] text-white py-20 w-full px-7 xl:px-20 lg:w-5/6 lg:rounded-2xl mt-40">
           <div className="grid grid-cols-1 grid-rows-1 h-full items-center justify-items-center xl:justify-items-start xl:items-center ml-10 -mt-36 sm:-mt-44 lg:-mt-0">
             <div
               className="col-start-1 col-span-1 row-span-1 row-start-1 -translate-x-12 w-[150px] h-[150px] md:w-[200px] md:h-[200px]"
@@ -85,7 +85,7 @@ export default function More() {
 
                 <p>When, while the lovely valley teems with</p>
 
-                <div className=" font-Quick font-semibold text-center mt-10 mb-20">
+                <div className=" font-Quick font-semibold text-center mt-10">
                   Haluatko jatkaa tutustumista ja jutella lisää? Ota yhteyttä
                   <p>yhteyslinkki</p>
                 </div>
