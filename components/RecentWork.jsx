@@ -36,6 +36,7 @@ export default function RecentWork() {
           bgImage={hexenhammer}
           btnColor={"bg-red-700"}
           shadow={"shadow-sm shadow-red-900"}
+          link="/Hexenhammer"
         />
         <WorkCard
           cardName={"Norsupeli"}
