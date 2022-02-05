@@ -5,7 +5,11 @@ import cardboard from "../components/img/cardboard.png"
 import arch from "../public/arch.png"
 import { WordpressBadge } from "../components/Buttons/Badges"
 import { UIBadge } from "../components/Buttons/Badges"
-import hhbooks1 from "../components/img/hh_bookshop.png"
+
+import EmblaCarousel from "../js/EmblaCarousel"
+
+const SLIDE_COUNT = 3
+const slides = Array.from(Array(SLIDE_COUNT).keys())
 
 export default function Hexenhammer() {
   return (
@@ -30,12 +34,16 @@ export default function Hexenhammer() {
             className="w-full h-full opacity-40 mix-blend-color-burn"
           />
         </div>
-        <div className="absolute left-2 top-10 w-10 h-10 z-20">
-          <a href="./">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <div className="fixed left-2 top-10 w-10 h-10 z-20 ">
+          <a className="" href="./">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              className=""
+            >
               <path
                 fill="none"
-                stroke="white"
+                stroke="#d4d4d8"
                 strokeLinecap="round"
                 stroke-linejoin="round"
                 strokeWidth="48"
@@ -59,7 +67,7 @@ export default function Hexenhammer() {
       </div>
 
       <div className="mt-20 px-4 sm:px-8 md:px-28 xl:px-64 2xl:px-96 text-center ">
-        <div className="font-Work text-base text-left bg-white border-[1px] border-gray-100/10 py-10 px-16 rounded-3xl backdrop-blur-sm -mt-48 shadow-xl shadow-stone-600/20">
+        <div className="font-Work text-base text-left bg-white border-[1px] border-gray-100/10 py-10 px-16 rounded-3xl backdrop-blur-sm -mt-48 shadow-xl shadow-stone-600/20 z-50 relative">
           <p className="mb-2">
             Tämä erikoisia kirjoja myyvä kirjakauppa oli ensimmäinen
             nykyaikainen nettisivuprojektini asiakkaalle. Asiakas toivoi
@@ -68,9 +76,9 @@ export default function Hexenhammer() {
             projektiin valmiin Wordpress-pohjan käytettävyyden ja nopean
             pystyttämisen, sekä aikaisemman Wordpress-kokemukseni vuoksi.
           </p>
-          <div className="h-1/2 w-1/2">
+          {/* <div className="h-1/2 w-1/2">
             <Image src={hhbooks1} layout="responsive" />
-          </div>
+          </div> */}
           <p className="mb-2">
             Projektin pohjalle viritettiin Wordpress-teema, jota tuunattiin
             asiakkaiden toiveiden mukaisesti (esimerkiksi alun animaatio,
@@ -86,17 +94,23 @@ export default function Hexenhammer() {
             sivu saatiin kuitenkin toimimaan juuri halutulla tavalla.
           </p>
           <p className="mb-2">
+            Kauppapaikaksi valikoitui kehuttu ja varsin toimiva
+            online-kauppapohja Woocommerce. Woocommercen kanssa kaikki sujui
+            kuin rasvattu, mitään ongelmia ei koskaan ollut.
+          </p>
+          <p className="mb-2">
             Sivuille kytkettiin maksuvaihtoehdoksi Stripe.
             Stripe-maksuliikennevälittäjä oli suhteellisen helppo virittää
             tälläiseen projektiin. Maksuliikennettä ensikertaa virittävälle tuli
             yllätyksenä Stripen hyvät ja tiukat turvavaatimukset: esimerkiksi
-            asiakkaalta piti toimittaa Stripille asuntolainan tosite, tmv
-            dokumentti, koska piti todistaa luonnollisen henkilön käyttöoikeudes
+            asiakkaalta piti toimittaa Stripelle asuntolainan tosite, tmv melko
+            henkilökohtainen dokumentti, koska maksuliikeenteen järjestäjän piti
+            varmistua kauppiaan luonnollisen henkilön käyttöoikeudesta
             kiinteistöön, jossa Stripellä laskutettava liiketoiminta tapahtui.
           </p>
           <p className="mb-2 mt-2">
-            Wordpressiin viritettiin myös asiakasrekisteri, ja muistutus uusista
-            tilauksista, sekä tilausten tilan tarkkailu ja kuittaus. Asiakkaalle
+            Wordpressia tuunattiin niin, että asiakkaan oli helppo hallinnoida
+            verkkokauppansa tilaa ja lisätä uusia tuotteita. Asiakkaalle
             kirjoitettiin myös kattava, juuri hänelle luotu ohjekirja ja
             tietopaketti Wordpress-pohjaisen nettikaupan hallinnasta.
           </p>
@@ -104,8 +118,22 @@ export default function Hexenhammer() {
             Projektin aikana palveluntarjoajaa piti vaihtaa: Ensin
             hosting-palveluksi valikoitiin Bluehost, mutta
             palveluehtosopimuksien ja hintojen muuttuessa tehtiin migraatio
-            Cloudwaysiin.
+            Cloudwaysiin. Migraatio oli helppo ja mukava tehdä, vaikka edellisen
+            palvelusopimuksen katkaisu vaati hieman keskustelua ja erinäisiä
+            soittoja Intiaan. Lopulta kaikki onnistui, asiakas oli tyytyväinen
+            ja projekti saatiin mesnestykseekkästi päätökseen.
           </p>
+          <div className="text-lg font-bold text-center mt-10">
+            Snapshotteja kaupasta
+            <EmblaCarousel slides={slides} />
+          </div>
+          <a
+            href="https://hexenhammerbooks.com/"
+            className="font-Quick font-bold text-center text-red-700 underline"
+          >
+            {" "}
+            Käy kurkkaamassa kirjakauppaa netistä
+          </a>
         </div>
       </div>
     </section>
