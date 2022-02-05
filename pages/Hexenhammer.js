@@ -1,29 +1,21 @@
 import skull from "../components/img/skull.png"
 import Image from "next/image"
-import hexfooter from "../components/img/skull.png"
-import cardboard from "../components/img/cardboard.png"
 import arch from "../public/arch.png"
 import { WordpressBadge } from "../components/Buttons/Badges"
 import { UIBadge } from "../components/Buttons/Badges"
 
-import EmblaCarousel from "../js/EmblaCarousel"
+import EmblaCarousel from "../components/EmblaCarousel"
 
-const SLIDE_COUNT = 3
-const slides = Array.from(Array(SLIDE_COUNT).keys())
+import media1 from "../components/img/carouselMedia/hh_bookshop.png"
+import media2 from "../components/img/carouselMedia/hh_bookshop2.png"
+import media3 from "../components/img/carouselMedia/hh_bookshop3.png"
+const media = [media1, media2, media3]
 
 export default function Hexenhammer() {
   return (
     <section className="flex flex-col justify-center items-center relative">
       <div className="flex flex-row relative justify-between px-4 sm:px-8 md:px-28 xl:px-64 2xl:px-96 items-center  w-full h-[70vh] overflow-hidden bg-gradient-to-b from-blue-900 to-red-900 text-center">
         <div className="absolute left-0 w-full h-full ">
-          {/* <div
-            style={{
-              backgroundImage: `url${cardboard.src}`,
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-            }}
-          ></div> */}
           <div
             style={{
               backgroundImage: `url(${arch.src})`,
@@ -45,7 +37,7 @@ export default function Hexenhammer() {
                 fill="none"
                 stroke="#d4d4d8"
                 strokeLinecap="round"
-                stroke-linejoin="round"
+                strokeLinejoin="round"
                 strokeWidth="48"
                 d="M244 400L100 256l144-144M120 256h292"
               />
@@ -125,15 +117,16 @@ export default function Hexenhammer() {
           </p>
           <div className="text-lg font-bold text-center mt-10">
             Snapshotteja kaupasta
-            <EmblaCarousel slides={slides} />
+            <EmblaCarousel media={media} color="bg-red-500" />
           </div>
-          <a
-            href="https://hexenhammerbooks.com/"
-            className="font-Quick font-bold text-center text-red-700 underline"
-          >
-            {" "}
-            Käy kurkkaamassa kirjakauppaa netistä
-          </a>
+          <div className="flex mt-8 items-center justify-center w-full">
+            <a
+              href="https://hexenhammerbooks.com/"
+              className="font-Quick font-bold text-center text-red-700 underline"
+            >
+              Käy kurkkaamassa kirjakauppaa netistä
+            </a>
+          </div>
         </div>
       </div>
     </section>
