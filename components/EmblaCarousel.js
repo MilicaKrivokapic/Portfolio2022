@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from "react"
-import { DotButton, PrevButton, NextButton } from "./EmblaCarouselButtons"
 import useEmblaCarousel from "embla-carousel-react"
 import { Thumb } from "./EmblaCarouselThumb"
 
