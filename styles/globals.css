@@ -22,10 +22,7 @@ p {
 .embla {
   position: relative;
   background-color: #f7f7f7;
-  padding: 20px;
-  max-width: 670px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1.5rem 0;
 }
 
 .embla__viewport {
@@ -44,6 +41,7 @@ p {
 
 .embla__container {
   display: flex;
+  align-items: flex-end;
   user-select: none;
   -webkit-touch-callout: none;
   -khtml-user-select: none;
@@ -55,25 +53,6 @@ p {
   padding-left: 10px;
   min-width: 100%;
   position: relative;
-}
-
-.embla__slide__inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  aspect-ratio: 1.4;
-}
-
-.embla__slide__img {
-  position: absolute;
-  display: block;
-  top: 50%;
-  left: 50%;
-  /* min-height: 100%; */
-  min-width: 100%;
-  width: 100%;
-  max-width: none;
-  transform: translate(-50%, -50%);
 }
 
 .embla--thumb {
@@ -88,7 +67,7 @@ p {
 
 .embla__slide--thumb {
   padding-left: 8px;
-  min-width: 20%;
+  min-width: 33%;
 }
 
 .embla__slide__inner--thumb {
