@@ -47,6 +47,7 @@ export default function RecentWork() {
           bgSize="contain"
           btnColor={"bg-pink-600"}
           shadow={"shadow-sm shadow-pink-900"}
+          link="/Norsupeli"
         />
         <WorkCard
           cardName={"Digitalents"}
