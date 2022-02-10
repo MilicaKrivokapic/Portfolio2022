@@ -60,7 +60,7 @@ export default function Hexenhammer() {
       <p className="mb-2">
         Kauppapaikaksi valikoitui kehuttu ja varsin toimiva online-kauppapohja
         Woocommerce. Woocommercen kanssa kaikki sujui kuin rasvattu, mitään
-        ongelmia ei koskaan ollut.
+        ongelmia ei ilmaantunut.
       </p>
       <p className="mb-2">
         Sivuille kytkettiin maksuvaihtoehdoksi Stripe.
@@ -84,7 +84,7 @@ export default function Hexenhammer() {
         hintojen muuttuessa tehtiin migraatio Cloudwaysiin. Migraatio oli helppo
         ja mukava tehdä, vaikka edellisen palvelusopimuksen katkaisu vaati
         hieman keskustelua ja erinäisiä soittoja Intiaan. Lopulta kaikki
-        onnistui, asiakas oli tyytyväinen ja projekti saatiin mesnestykseekkästi
+        onnistui, asiakas oli tyytyväinen ja projekti saatiin menestykseekkästi
         päätökseen.
       </p>
     </CaseWrapper>
