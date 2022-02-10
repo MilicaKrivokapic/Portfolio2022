@@ -1,6 +1,6 @@
 export const ReactBadge = () => {
   return (
-    <span className="bg-indigo-100 font-Work text-indigo-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900">
+    <span className="bg-indigo-100 font-Work text-indigo-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900">
       React
     </span>
   )
@@ -10,6 +10,14 @@ export const WordpressBadge = () => {
   return (
     <span className=" bg-green-100 text-emerald-600  text-sm font-Work font-semibold mr-2 px-2.5 py-0.5 rounded">
       Wordpress
+    </span>
+  )
+}
+
+export const CSSBadge = () => {
+  return (
+    <span className=" bg-teal-100 text-teal-600 text-sm font-Work font-semibold mr-2 px-2.5 py-0.5 rounded">
+      CSS
     </span>
   )
 }
