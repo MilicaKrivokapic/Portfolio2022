@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         Work: ["Work Sans", "sans-serif"],
         Quick: ["Quicksand"],
+        Parisienne: ["Parisienne"],
       },
       colors: {
         "fuchsia-blue": {
