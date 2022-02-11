@@ -7,12 +7,12 @@ const About = () => {
           <span className=" text-fuchsia-300 font-semibold"> Milica </span>,
           joka on nimeni.{" "}
           <span className="font-semibold text-violet-300">
-            Hauska tavata! 👋{" "}
+            Hauska tavata!👋
           </span>
         </p>
         <p className="mb-1 xl:mb-2 ">Minä rakennan sivuja nettiin.</p>
         <p className="mb-1 xl:mb-2">
-          Tällä hetkellä työskentelen Digitalents Helsingillä webkehittäjänä.
+          Tällä hetkellä etsin työtä webkehittäjänä.
         </p>
         <p>
           Intohimoni on tuottaa mieleenjääviä ja saavutettavia nettisivuja
@@ -25,7 +25,7 @@ const About = () => {
             <div className="w-14 text-white bg-indigo-800 rounded-2xl p-2 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="ionicon"
+                className="ionicon hover:animate-ping"
                 viewBox="0 0 512 512"
               >
                 <path
@@ -41,7 +41,7 @@ const About = () => {
             <p className="mb-6 font-bold text-2xl font-Quick">
               Front-end koodaus
             </p>
-            <p className="text-sm mb-6 xl:px-20 text-justify">
+            <p className="text-sm mb-6 xl:px-20 text-center">
               Haluan ylittää itseni jokaisessa projektissa. Käytettävyys ja
               saavutettavuus ovat minulle tärkeitä, unohtamatta tietenkään
               kaikenlaisia uusia CSS-seikkailuja, joihon hyppään innolla mukaan.
@@ -63,7 +63,7 @@ const About = () => {
             <div className="w-14 text-white bg-indigo-800  rounded-2xl  p-2 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="ionicon"
+                className="ionicon hover:animate-ping"
                 viewBox="0 0 512 512"
               >
                 <path
@@ -80,7 +80,7 @@ const About = () => {
               Graafinen osaaminen
             </p>
 
-            <p className="text-sm mb-6 text-justify xl:px-20">
+            <p className="text-sm mb-6 text-center xl:px-20">
               Graafisesti pidän minimalistisesta mutta myös yllättävästä,
               miedosti psykedeelisestä tyylistä. Minulle grafiikassa tärkeää on
               käytettävyyden korostaminen ja pienten, mutta tyydyttävien
