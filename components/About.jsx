@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className="">
-      <div className=" font-Work text-white bg-gradient-to-b from-indigo-800 to-jazzberry-jam-700 bg-blend- w-full pb-[22rem] md:text-xl text-base p-14 lg:text-center ">
+      <div className=" font-Work text-white bg-gradient-to-b from-[#061129] via-[#010141] to-[#020227] w-full pb-[22rem] md:text-xl text-base p-14 lg:text-center ">
         <p className="xl:mb-2 mb-1">
           ...niin kuin mukava tai merkillinen. Tai sitten vaikka{" "}
           <span className=" text-fuchsia-300 font-semibold"> Milica </span>,
@@ -22,7 +22,7 @@ const About = () => {
       <div className="w-full flex flex-col items-center ">
         <div className=" bg-white font-Work rounded-lg w-5/6 shadow-md grid grid-flow-row divide-y-2 md:grid-cols-2 md:divide-x-2 md:divide-y-0 divide-jazzberry-jam-700/10 text-center xl:text-xl overflow-hidden -mt-72 ">
           <div className="flex flex-col items-center py-8 px-5">
-            <div className="w-14 text-white bg-indigo-800 rounded-2xl p-2 mb-5">
+            <div className="w-14 text-white bg-gradient-to-br from-blue-700 to-black rounded-2xl p-2 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="ionicon hover:animate-ping"
@@ -60,7 +60,7 @@ const About = () => {
             </ul>
           </div>
           <div className="flex flex-col items-center py-8 px-5">
-            <div className="w-14 text-white bg-indigo-800  rounded-2xl  p-2 mb-5">
+            <div className="w-14 text-white bg-gradient-to-br from-blue-700 to-black  rounded-2xl  p-2 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="ionicon hover:animate-ping"
