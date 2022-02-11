@@ -1,6 +1,7 @@
 import woman from "./img/woman.jpg"
 import man from "./img/man.jpg"
 import lady from "./img/lady.jpg"
+import joonas from "./img/joonas.png"
 import React from "react"
 import ChevronLeft from "./ChevronLeft"
 import ChevronRight from "./ChevronRight"
@@ -8,7 +9,12 @@ import ChevronRight from "./ChevronRight"
 const images = [woman, man, lady]
 
 const comments = [
-  { img: woman, txt: "Tosi kiva!" },
+  {
+    img: joonas,
+    name: "Joonas Pitkonen",
+    title: "Tiiminvetäjä, DT Helsinki",
+    txt: ' "Teknisen osaamisensa lisäksi Milican vahvuuksia ovat huolellisuus, sinnikkyys, loistavat sosiaaliset taidot sekä aito halu oppia uutta. Suosittelen lämpimästi Milica Krivokapicia ohjelmistokehittäjän tehtäviin." ',
+  },
   { img: man, txt: "Erittäin jees! <3" },
   { img: lady, txt: "5/5" },
 ]
@@ -48,7 +54,7 @@ export default function Carousel() {
     <button
       type="button"
       onClick={isLeft ? previousImage : nextImage}
-      className={`absolute text-white text-2xl z-10  h-10 w-10 flex items-center justify-center top-[40%]  ${
+      className={`absolute text-white text-2xl z-10  h-10 w-10 flex items-center justify-center top-[12.5vw] md:top-[16vw] lg:top-[8vw] ${
         isLeft ? "xl:left-80 left-2 " : "xl:right-80 right-2"
       }`}
     >
@@ -78,12 +84,20 @@ export default function Carousel() {
               <div
                 key={i}
                 ref={refs[i]}
-                className="w-full flex-shrink-0 rounded-full flex flex-col items-center justify-center"
+                className="w-full flex-shrink-0 rounded-full flex flex-col items-center justify-start"
               >
                 <div className="lg:w-[18%] w-[50%] sm:w-[38%] p-3 rounded-full bg-transparent shadow-indigo-300/80 shadow-md ">
                   <img className="rounded-full" src={comment.img.src} />
                 </div>
-                <span className="font-Work text-lg mt-4">{comment.txt}</span>
+                <span className="font-Work text-sm md:text-lg font-bold text-blue-800 mt-4">
+                  {comment.name}
+                </span>
+                <span className="font-Work text-sm md:text-lg font-bold text-blue-800">
+                  {comment.title}
+                </span>
+                <div className="text-center font-Work xl:text-lg mt-4 w-[35rem] max-w-full px-2 leading-5">
+                  {comment.txt}
+                </div>
               </div>
             )
           })}
