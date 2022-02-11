@@ -40,9 +40,8 @@ export default function More() {
               <p className="mb-4">
                 Jos saisin valita yhden asian, jonka pelastaisin (puolisoni ja
                 koiranpennun lisäksi, tietenkin) palavasta talosta, valitsisin
-                tietokoneen. Pelaaminen, kirjoittaminen ja tiedostojen ulkonäön
-                muokkaaminen ovat olleet minulle lapsesta saakka tärkeitä
-                asioita.
+                tietokoneen. Pelaaminen, kirjoittaminen ja tietokoneella
+                puuhailu ovat olleet minulle lapsesta saakka tärkeitä asioita.
               </p>
               <p className="mb-4">
                 Työhistoriani on ollut yksi haarautuvien polkujen puutarha -
@@ -56,7 +55,7 @@ export default function More() {
                 markkinoiva myyntityö.
               </p>
               <p className="mb-4">
-                Ystävieni tuella ja kannustuksella ja uskalsin lopulta hakea
+                Ystävieni tuella ja kannustuksella uskalsin lopulta hakea
                 media-alan peruskoulutukseen. Tämä muutti elämäni, sillä
                 koulussa löysin ensimmäisen oikean intohimoni: valokuvauksen.
                 Rakastin aivan erityisesti valokuvien muokkaamista Photoshopilla
@@ -68,32 +67,45 @@ export default function More() {
                 keikkatöitä; olen mm. ollut kuvaamassa vanhoille
                 punk-legendoille musiikkivideoita, kuvannut tapahtumia (kuten
                 häitä ja messuja) sekä ääninäytellyt peleissä. Innostuin kovasti
-                myös 3d-mallintamisesta, josta olisin halunnut saada itselleni
+                myös 3D-mallintamisesta, josta olisin halunnut saada itselleni
                 joskus työpaikan, mutta alan realititeetit ensimmäisen pidemmän
                 työharjoittelurupeaman ja verkostointitapahtumissa tapaamieni
-                ihmisten kertomusten jälkeen intoni pelia-alalla työskentelystä
-                alkoi laimentua. Media-alan osuuskuntamme ajautui konkurssiin
-                ensimmäisenä koronavuonna, ja päätin kokeilla jotain uutta ja
-                aivonystyröitä haastavaa: webdevaamista. Devaamisen kanssa kävin
-                samoin kuin valokuvauksen, jäin heti ensimmäisestä keikasta
-                koukkuun. Pidän silti yhä 3D-maailmasta, ja toivon voivani vielä
-                yhdistää sen ja webdevaamisen - Three.js-kirjasto kiinnostaa
-                erityisesti.
+                ihmisten kertomusten jälkeen intoni pelia-alalla työskentelyä
+                kohtaan alkoi laimentua. Media-alan osuuskuntamme ajautui
+                konkurssiin ensimmäisenä koronavuonna. Päätin kokeilla jotain
+                uutta ja aivonystyröitä haastavaa: webdevaamista. Devaamisen
+                kanssa kävin samoin kuin valokuvauksen, jäin heti ensimmäisestä
+                keikasta koukkuun. Pidän silti yhä 3D-maailmasta, ja toivon
+                voivani vielä yhdistää mallintamisen ja devaamisen -
+                Three.js-kirjasto kiinnostaa erityisesti.
               </p>
               <p className="mb-4">
                 Tavoitteenani on oppia ihan joka päivä jotain uutta, ja ymmärtää
                 holistisesti verkkosivujen toimintaa ja rakentamista. Front-end
-                on minun heiniäni, mutta haaveilen ajan kanssa tulevani
+                on minun heiniäni, mutta haaveilen ajan kanssa kasvavani
                 kiitettäväksi Fullstack-osaajaksi. Olen valmiina kaikenlaisiin
                 uusiin haasteisiin!
               </p>
 
-              <div className=" font-Quick font-semibold text-center mt-10">
+              <div className=" font-Quick don text-center mt-10">
                 <p className="font-Parisienne font-light text-4xl">
                   Milica Krivokapic
                 </p>
-                <p>Haluatko jatkaa tutustumista ja jutella lisää? </p>Ota
-                yhteyttä: yhteyslinkki
+                <p>Haluatko jatkaa tutustumista ja jutella lisää? </p>
+                <a
+                  className="font-Quick font-black text-fuchsia-300 hover:text-violet-400"
+                  href="https://www.linkedin.com/in/milica-krivokapic/"
+                >
+                  Laita minulle linkkarissa viesti
+                </a>{" "}
+                tai{" "}
+                <a
+                  className="font-black text-fuchsia-300 hover:text-violet-400"
+                  href="mailto:milica1krivokapic@gmail.com"
+                >
+                  {" "}
+                  laita minulle sähköpostiviesti{" "}
+                </a>
               </div>
             </div>
           </div>
