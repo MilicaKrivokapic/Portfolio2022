@@ -2,6 +2,8 @@ import woman from "./img/woman.jpg"
 import man from "./img/man.jpg"
 import lady from "./img/lady.jpg"
 import joonas from "./img/joonas.png"
+import mikko from "./img/mikko.png"
+import vaapu from "./img/vaapu.png"
 import React from "react"
 import ChevronLeft from "./ChevronLeft"
 import ChevronRight from "./ChevronRight"
@@ -12,11 +14,21 @@ const comments = [
   {
     img: joonas,
     name: "Joonas Pitkonen",
-    title: "Tiiminvetäjä, DT Helsinki",
+    title: "Tiimivastaava, DT Helsinki",
     txt: ' "Teknisen osaamisensa lisäksi Milican vahvuuksia ovat huolellisuus, sinnikkyys, loistavat sosiaaliset taidot sekä aito halu oppia uutta. Suosittelen lämpimästi Milica Krivokapicia ohjelmistokehittäjän tehtäviin." ',
   },
-  { img: man, txt: "Erittäin jees! <3" },
-  { img: lady, txt: "5/5" },
+  {
+    img: mikko,
+    name: "Mikko Karjanmaa",
+    title: "Työkaveri/Vuohi Media",
+    txt: ' "Milica on asioita monesta näkökulmasta tutkiva työkaveri jonka kanssa on helppo puhua" ',
+  },
+  {
+    img: vaapu,
+    name: "Vaapukka Postimerkki",
+    title: "Pentu, kotitoimistokoira",
+    txt: ' "Milica on hyvä kotityökaveri, vaikka joskus minä kovasti puren ja suutun, kun hän anna minun tehdä tuhotöi... grrhöm, tarkoitan kotitöitäni." ',
+  },
 ]
 
 export default function Carousel() {
@@ -86,7 +98,7 @@ export default function Carousel() {
                 ref={refs[i]}
                 className="w-full flex-shrink-0 rounded-full flex flex-col items-center justify-start"
               >
-                <div className="lg:w-[18%] w-[50%] sm:w-[38%] p-3 rounded-full bg-transparent shadow-indigo-300/80 shadow-md ">
+                <div className="lg:w-[18%] w-[50%] sm:w-[38%] rounded-full bg-transparent drop-shadow-md ">
                   <img className="rounded-full" src={comment.img.src} />
                 </div>
                 <span className="font-Work text-sm md:text-lg font-bold text-blue-800 mt-4">
