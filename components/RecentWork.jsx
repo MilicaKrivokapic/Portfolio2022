@@ -21,12 +21,18 @@ export default function RecentWork() {
               href="https://www.milica.fi"
             >
               milica.fi
-            </a>{" "}
+            </a>
           </p>
-          {/* <p>
-            Mikäli haluat jutella enemmän projekteistani, tai palkata minut
-            esimerkiksi freelanceriksi projektiin, ota yhteyttä.
-          </p> */}
+          <p>
+            Voit kurkata myös{" "}
+            <a
+              className="text-jazzberry-jam-500 font-bold
+              hover:text-jazzberry-jam-50"
+              href="/MilicaKrivokapic_CV.pdf"
+            >
+              CV:ni
+            </a>
+          </p>
         </div>
       </div>
       <div className="grid grid-cols-1 w-5/6 2xl:grid-cols-3 md:grid-cols-2 py-8 md:py-20 gap-8">
