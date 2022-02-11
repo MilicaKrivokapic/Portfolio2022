@@ -23,7 +23,6 @@ export default function Norsupeli() {
       gradient={"to-pink-700"}
       heroImg={<Image src={Norse} layout="responsive" quality={100}></Image>}
       bgImage={paint.src}
-      carouselChildren={"Kuvia pelistä"}
       linkSection={
         <a
           href="https://hexenhammerbooks.com/"
