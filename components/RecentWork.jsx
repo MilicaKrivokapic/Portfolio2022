@@ -55,6 +55,7 @@ export default function RecentWork() {
           bgImage={digitalents}
           btnColor={"bg-yellow-500"}
           shadow={"shadow-sm shadow-yellow-900"}
+          link="/Digitalents"
         />
         <WorkCard
           cardName={"Achievely"}
