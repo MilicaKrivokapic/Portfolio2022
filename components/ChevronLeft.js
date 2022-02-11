@@ -1,6 +1,8 @@
 export default function ChevronLeft({ className }) {
   return (
-    <div className={`w-10 h-10 flex items-center justify-center ${className}`}>
+    <div
+      className={`w-10 h-10 flex items-center justify-center   ${className}`}
+    >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
         <path
           fill="#1e3a8a"
