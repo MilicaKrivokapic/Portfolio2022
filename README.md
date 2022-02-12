@@ -25,7 +25,7 @@
 ⬇️💬 Mikäli jokin ei toimi kuten pitäisi, tai haluat jutella mistä vain, **_ota rohkeasti yhteyttä_**!💬⬇️
 <br>
 <br>
-[<img  align="left" alt="Ota yhteyttä" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>][gmail]
+[<img align="left" alt="Ota yhteyttä" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>][gmail]
 <br>
 <br>
 
