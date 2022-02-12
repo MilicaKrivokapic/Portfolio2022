@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden  bg-gradient-to-r from-black via-[#341369] to-cyan-900 h-[15rem] md:h-[25rem] mt-6 ">
+    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden  bg-gradient-to-r from-[#010307] to-[#00003A] h-[15rem] md:h-[25rem] mt-6 ">
       <div className="w-full col-start-1 col-span-1 row-span-1 row-start-1 overflow-hidden ">
         <svg
           className="h-36 md:h-80 -ml-4 col-start-1 col-span-1 row-span-1 row-start-1"
@@ -9,32 +9,32 @@ export default function Footer() {
           viewBox="0 0 512.004 512.004"
         >
           <path
-            fill="#9f1239"
+            fill="#05568b"
             d="M193.479,256.03C193.479,143.783,108.819,50.949,0,37.99v434.992h7.848
 	C112.86,456.599,193.479,365.567,193.479,256.03z"
           />
           <g>
             <path
-              fill="#D33F2F"
+              fill="#11767e"
               d="M0,185.138h181.731c-1.941-5.674-4.11-11.242-6.493-16.696H0V185.138z"
             />
             <path
-              fill="#D33F2F"
+              fill="#11767e"
               d="M55.338,293.521h-4.345c-4.61,0-8.348-3.736-8.348-8.348c0-4.611,3.738-8.348,8.348-8.348h4.345
 		c4.61,0,8.348,3.736,8.348,8.348C63.686,289.783,59.949,293.521,55.338,293.521z"
             />
             <path
-              fill="#D33F2F"
+              fill="#11767e"
               d="M206.807,293.521H83.919c-4.61,0-8.348-3.736-8.348-8.348c0-4.611,3.738-8.348,8.348-8.348h122.888
 		c4.61,0,8.348,3.736,8.348,8.348C215.155,289.783,211.417,293.521,206.807,293.521z"
             />
             <path
-              fill="#D33F2F"
+              fill="#11767e"
               d="M0,401.897h137.872c4.756-5.339,9.257-10.91,13.481-16.696H0V401.897z"
             />
           </g>
           <circle
-            fill="#8C6E51"
+            fill="#90eccd"
             cx="479.844"
             cy="256.001"
             r="32.16"
@@ -48,7 +48,7 @@ export default function Footer() {
             className=""
           />
           <path
-            fill="#500d54"
+            fill="#00003A"
             d="M3.062,502.676c1.631,1.417,3.709,2.185,5.842,2.185c0.393,0,0.787-0.029,1.182-0.081
 	c0.102-0.016,0.205-0.029,0.306-0.043c40.515-5.729,79.595-21.684,113.031-46.158c33.527-24.542,60.66-57.129,78.478-94.247
 	c0.033-0.071,0.069-0.14,0.102-0.211c0.06-0.126,0.117-0.253,0.171-0.382l9.69-23.277c0.053-0.128,0.102-0.258,0.15-0.39
@@ -102,12 +102,12 @@ export default function Footer() {
       </div>
       <div className="flex col-start-1 col-span-1 row-span-1 row-start-1 items-center justify-end md:justify-center md:items-center w-full h-full px-7">
         <div className="flex flex-col justify-center items-start">
-          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-jazzberry-jam-50 mb-4">
+          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-fuchsia-300 mb-4">
             <svg
               width="36px"
               height="36px"
               viewBox="0 -0.5 25 25"
-              className="mr-4 group-hover:bg-jazzberry-jam-500 group-hover:rounded-full"
+              className="mr-4 group-hover:bg-violet-400 group-hover:rounded-full"
             >
               <path
                 fill="#fff"
@@ -116,12 +116,12 @@ export default function Footer() {
             </svg>
             <a href="https://github.com/MilicaKrivokapic"> Github</a>
           </div>
-          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-jazzberry-jam-50 mb-4">
+          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-fuchsia-300  mb-4">
             <svg
               width="36px"
               height="36px"
               viewBox="0 0 20 20"
-              className=" group-hover:bg-jazzberry-jam-500 group-hover:rounded-full"
+              className=" group-hover:bg-violet-400 group-hover:rounded-full"
             >
               <path
                 fill="#ffff"
@@ -136,14 +136,14 @@ export default function Footer() {
               LinkedIn
             </a>
           </div>
-          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-jazzberry-jam-50 mb-4">
+          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-fuchsia-300  mb-4">
             <svg
               version="1.1"
               id="Layer_1"
               width="36px"
               height="36px"
               viewBox="0 0 490.667 490.667"
-              className=" group-hover:bg-jazzberry-jam-500 group-hover:rounded-full"
+              className=" group-hover:bg-violet-400  group-hover:rounded-full"
             >
               <g>
                 <g>
@@ -180,12 +180,12 @@ export default function Footer() {
               CV
             </a>
           </div>
-          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-jazzberry-jam-50 mb-4">
+          <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-fuchsia-300  mb-4">
             <svg
               width="36px"
               height="36px"
               viewBox="0 0 24 24"
-              className=" group-hover:bg-jazzberry-jam-500 group-hover:rounded-full"
+              className=" group-hover:bg-violet-400  group-hover:rounded-full"
             >
               <g>
                 <path fill="none" d="M0 0h24v24H0z" />
