@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden h-screen xl:h-screen">
+    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden h-screen xl:h-screen xl:mt-12 ">
       <div className=" col-start-1 col-span-1 row-span-1 row-start-1 xl:-mt-[27rem] xl:-mb-[17rem] font-Work font-semibold text-[120vw] lg:text-[70vw] xl:text-[60vw]  mix-blend-overlay  text-fuchsia-blue-600/20 z-30">
         M
       </div>
