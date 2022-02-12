@@ -1,5 +1,5 @@
 import WorkCard from "./WorkCard"
-import norsenkoti from "./img/norsenkoti.png"
+import portfolio from "./img/portfoliomoz.jpg"
 import hexenhammer from "./img/hexenhammer.png"
 import norsupeli from "./img/norse_nettiin.png"
 import digitalents from "./img/digitalents.png"
@@ -62,6 +62,17 @@ export default function RecentWork() {
           btnColor={"bg-yellow-500"}
           shadow={"shadow-sm shadow-yellow-900"}
           link="/Digitalents"
+        />
+        <WorkCard
+          cardName={"Portfolio"}
+          cardColor={
+            " bg-gradient-to-b from-blue-800/90 to-fuchsia-blue-900/90"
+          }
+          bgImage={portfolio}
+          bgSize="contain"
+          btnColor={"bg-cyan-600"}
+          shadow={"shadow-sm shadow-cyan-900"}
+          link="/Portfolio"
         />
         <WorkCard
           cardName={"Achievely"}
