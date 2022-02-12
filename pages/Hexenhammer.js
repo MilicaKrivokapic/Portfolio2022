@@ -4,9 +4,9 @@ import arch from "../public/arch.png"
 import { WordpressBadge, UIBadge } from "../components/Buttons/Badges"
 import CaseWrapper from "../components/CaseWrapper"
 
-import media1 from "../components/img/carouselMedia/hh_bookshop.png"
-import media2 from "../components/img/carouselMedia/hh_bookshop2.png"
-import media3 from "../components/img/carouselMedia/hh_bookshop3.png"
+import media1 from "../components/img/hexenhammer/hh_bookshop.jpg"
+import media2 from "../components/img/hexenhammer/hh_bookshop2.jpg"
+import media3 from "../components/img/hexenhammer/hh_bookshop3.jpg"
 const media = [media1, media2, media3]
 
 export default function Hexenhammer() {
@@ -40,9 +40,6 @@ export default function Hexenhammer() {
         Wordpress-pohjan käytettävyyden ja nopean pystyttämisen, sekä
         aikaisemman Wordpress-kokemukseni vuoksi.
       </p>
-      {/* <div className="h-1/2 w-1/2">
-          <Image src={hhbooks1} layout="responsive" />
-        </div> */}
       <p className="mb-2">
         Projektin pohjalle viritettiin Wordpress-teema, jota tuunattiin
         asiakkaiden toiveiden mukaisesti (esimerkiksi alun animaatio, elementit,
