@@ -45,38 +45,51 @@ export default function Portfolio() {
         </div>
       }
     >
-      <div className="selection:bg-cyan-600 selection:text-white">
+      <div className="selection:bg-cyan-500 selection:text-white">
         <p className="mb-2">
-          Halusin tehdä mukavan portfolion, josta ehkä voisi hieman rivien
-          väleistä nähdä minkälainen tyyppi olen. Halusin näyttää osaavani
-          rakentaa suht omaperäisen näköisiä sivuja, joita ei olisi voitu
-          toteuttaa pelkästään esimerkiksi Bootstrap-komponenttikirjaston tai
-          muun vastaavan valmiskirjaston avulla, jotta se toimisi myös itsessään
+          Halusin tehdä mukavan portfolion, jonka rivien välistä voisi nähdä
+          vilauksen siitä minkälainen tyyppi oikeastaan olen. Haluan näyttää
+          osaavani rakentaa suht omaperäisen näköisiä sivuja, joita ei olisi
+          voitu toteuttaa pelkästään esimerkiksi valmiilla
+          Bootstrap-komponenttikirjastolla tai muun vastaavan valmiskirjaston
+          avulla. Toivon että portfolio toimisi myös itsessään jonkinlaisena
           teknisenä/desing-näyttönä.
         </p>
-        <p>
+        <p className="mb-2">
           {" "}
           Idea portfolion sielulle, eli Hero-kuvan suunnattomalle M-kirjaimelle
           lähti Digitalentsin asiakasprojektista. Töissä suunnittelin
           asiakkaalle layoutin, jossa pääosassa kellui etusivulla valtava
           kirjain. Suunnittelin animoivani sen siten, että taustalla liikkuu
           CSS:llä liikuteltava gradienttiliuku. Tätä ideaa ei lopullisessa
-          työssä tultukaan käyttämään koska layout-suunnitelmaksi valittiin
+          työssä tultukaan käyttämään, koska layout-suunnitelmaksi valittiin
           toinen ehdotelmani. Erikoinen jättikirjain jäi kuitenkin
           kummittelemaan mieleni perukoille siinä määrin, että minun oli pakko
-          siirtää idea olemassaolevaksi, tosin muokaten ideaa niin, ettei se
-          liikaa muistuttaisi alkuperäistä suunnitelmaa asiakkaalle. Jättimäinen
+          siirtää idea olemassaolevaksi (muokaten ideaa niin, ettei se liikaa
+          muistuttaisi alkuperäistä suunnitelmaa asiakkaalle). Mammuttimainen
           M-kirjain onkin ollut varmasti koko portfolion työläin osio valmistaa.
           Se, kuten kaikki muutkin päällekkäin olevat elementit on toteutettu
           gridillä, jonka ensimmäiseen soluun elementit on pakotettu
-          päällekkäin, ja sitten käytetty CSS:n sekoitustiloja toivotun efektin
-          saamiseksi.
+          päällekkäin, ja sitten käytetty sopivia CSS:n sekoitustiloja toivotun
+          efektin saamiseksi.
         </p>
-        <p></p>
-        <p>
-          Pelin teko tyssäsi siihen, että minulla ei ollut sen tarkempaa
-          suunnitelmaa pelin käsikirjoituksesta tai juonesta, ja aloin
-          harjoittelemaan Wordpress-teemojen tekemistä.
+        <p className="mb-2">
+          Halusin tehdä erikseen klikattavat kortit, joiden sisällä löytyy
+          tietoa projekteista, koska halusin avata enemmän sellaisia asioita,
+          jotka GitHubiin kirjoitettuna tuntuisivat liian yksityiskohtaisilta.
+        </p>
+
+        <p className="mb-2">
+          Heron animaatio sekä toinen gifu kuvassani määrittelivät lopulta koko
+          sivuston väriteeman: päätin mennä tummansinisellä, mustalla ja
+          valkoisella, sekä sekoitella hieman muita värejä mukaan sopivassa
+          suhteessa.
+        </p>
+        <p className="mb-2">
+          Heron animaatio sekä toinen gifu kuvassani määrittelivät lopulta koko
+          sivuston väriteeman: päätin mennä tummansinisellä, mustalla ja
+          valkoisella, sekä sekoitella hieman muita värejä mukaan sopivassa
+          suhteessa.
         </p>
       </div>
     </CaseWrapper>

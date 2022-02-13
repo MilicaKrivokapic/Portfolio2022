@@ -25,7 +25,7 @@ export default function Digitalents() {
         <div className="flex flex-col justify-center items-center">
           <a
             href="https://digitalentshelsinki.fi"
-            className="font-Quick font-bold text-center hover:text-yellow-400 hover:underline my-3	"
+            className="font-Quick font-bold text-center hover:text-yellow-400 hover:underline my-3"
           >
             Käy kurkkaamassa kirjoittamiani Digitalentsin sivuja netissä
           </a>
@@ -58,7 +58,7 @@ export default function Digitalents() {
           valmistuneita työttömiä, äitiyslomalta työelämään takaisin palaavia,
           sekä kaltaisiani alanvaihtajia, joilla kuitenkin on jo työkokemusta,
           koulutustaustaa tai vankkaa harrastuneisuutta liittyen ohjelmointiin
-          tai devaamiseen. Ennen varsinaista työsuhdetta olin muutaman kuukauden
+          tai devaamiseen. Ennen varsinaista työsuhdetta olin reilun kuukauden
           työharjoittelussa, jossa sain osoitettua motivaationi ja
           oppimiskykyni.
         </p>
@@ -67,16 +67,15 @@ export default function Digitalents() {
           Ensimmäiseksi tehtäväkseni sain päivittää DT:n omia kotisivuja.
           Tehtävä ei ollutkaan aivan helppo, koska alkuperäinen sivusto oli
           kirjoitettu minulle alottaessani täysin tuntemattomalla Alpine.js:llä
-          ja Tailwindillä, ja lisäksi sivu käytti Lector-nimistä CMS:ää, joka
-          oli mielestäni ehkä hieman hankala käyttää Windowsilla. Käänsin sivun
-          ensin kokonaan uudelleen html:ksi ja puhtaaksi CSS:ksi. Tämän jälkeen
-          kirjoitin koko sivun vielä kerran uudelleen, mutta tällä kertaa
-          Reactilla samalla kun tiimitoverini kirjoitteli lomakejärjestelmän
-          backendin puolen uusiksi ja vaihdoimme projektin pyörimään VM:ään
-          Azureen. Urakka oli melko iso, mutta käydessäni työn ohessa melko
-          hitaaseen tahtiin Helsingin yliopiston Fullstack MOOCia, huomasin että
-          käytännön harjoittelu avaa aivan eri tavalla kurssin sisältöä, ja
-          nopeuttaa huomattavasti oppimistahtia.
+          ja Tailwindillä. Sivu käytti Lector-nimistä CMS:ää, joka oli
+          mielestäni ehkä hieman hankala käyttää Windowsilla. Sivuston
+          päivittäminen kaatui kiukuttelevaan Flask-versioon. Tästä johtuen
+          käänsin sivun ensin kokonaan uudelleen html:ksi ja puhtaaksi CSS:ksi.
+          Tämän jälkeen kirjoitin koko sivun vielä kerran uudelleen, mutta tällä
+          kertaa Reactilla samalla kun tiimitoverini kirjoitteli
+          lomakejärjestelmän backendin puolen uusiksi ja vaihdoimme projektin
+          pyörimään VM:ään Azureen. Urakka oli melko iso, mutta siitä selvittiin
+          kunnialla. :)
         </p>
 
         <p className="mb-2">
@@ -84,22 +83,24 @@ export default function Digitalents() {
           end-twiikkauksia{" "}
           <a
             href="https://satakolkyt.fi/en/"
-            className="font-semibold text-yellow-400"
+            className="font-semibold text-yellow-400 hover:text-yellow-700"
           >
             Satakolkyt-
           </a>
-          nimisen hankkeen kartta-ja varausdigitalentslukseen. Opin työsuhteeni
-          aikana Reactia, Next.js:ää, Azuren perusteita, Githubin/gitin
-          tehokkaampaa käyttöä, Tailwind CSS:ää ja tietenkin JavaScriptiä.
+          nimisen hankkeen kartta-ja varaussovellukseen. Opin työsuhteeni aikana
+          Reactia, Next.js:ää, Azuren perusteita, Githubin/gitin tehokkaampaa
+          käyttöä, Tailwind CSS:ää ja tietenkin JavaScriptiä.
         </p>
-        <p>
+        <p className="mb-2">
           Digitalentsilla totuin myös itselleni erittäin sopivaan ketterään
           työtapaan -ja ympäristöön. Työhön kuului päivittäiset dailyt, jossa
           käytiin läpi tiimin jokaisen henkilön päivän tehtävät. Työt tehtiin
           sprinteissä, ja jokaisen sprintin päätteessä tehtiin esimiehen ja
           tiimin kanssa sprint review,jossa yhdessä mietittiin projektien tilaa
           ja tulevia haasteita. Rakkauteni kanban-projektinhallintamenetelmään
-          syventyi entisestään.
+          syventyi työsuhteeni aikana entisestään. Kaiken kaikkiaan työsuhde
+          opetti minulle paljon, ja olen todella tyytyväinen saamaani
+          ohjaukseen, tukeen ja mentorointiin.
         </p>
       </div>
     </CaseWrapper>
