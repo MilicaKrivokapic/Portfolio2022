@@ -7,6 +7,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <title>Milica's portfolio</title>
+
+        <meta name="description" content="Milica's portfolio" />
+        <meta name="author" content="Milica Krivokapic" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="darkbunny.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
