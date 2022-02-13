@@ -76,15 +76,19 @@ export default function CaseWrapper({
         <div className=" h-16 w-16 sm:h-32 sm:w-32 hidden sm:block">
           {heroImg}
         </div>
-        {/* <div className=" col-start-1 col-end-9 row-start-1 row-end-2 border-b w-full mt-5"></div> */}
       </div>
 
       <div className=" sm:px-8 md:px-28 xl:px-64 2xl:px-96 text-center bg-white">
         <div className="font-Work text-base text-left bg-white border-[1px] border-gray-100/10 py-10 px-16 rounded-3xl backdrop-blur-sm -mt-[6rem] shadow-xl shadow-stone-600/20 z-50 relative">
           {children}
-          <div className="text-lg font-bold text-center">
-            <EmblaCarousel media={media} />
-          </div>
+
+          {media.length > 0 && (
+            <div className="text-lg font-bold text-center">
+              <EmblaCarousel media={media} />
+            </div>
+          )}
+          {/* This comparison ensures that if there are no pictures in the media array, it will not be rendered. */}
+
           <div className="flex mt-8 items-center justify-center w-full">
             {linkSection}
           </div>
