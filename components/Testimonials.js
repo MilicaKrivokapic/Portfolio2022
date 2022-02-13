@@ -6,7 +6,7 @@ export default function Testimonials() {
     <div className="flex flex-col justify-center items-center">
       <h2 className="font-bold text-4xl font-Quick mb-4 ">Suosituksia</h2>
       <p className="font-Work text-center text-xl">
-        Tyypit joiden kanssa olen työskennelleet haluavat sanoa sanasen minusta:
+        Tyypit joiden kanssa olen työskennellyt haluavat sanoa sanasen minusta:
       </p>
       <Carousel />
     </div>

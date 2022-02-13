@@ -38,8 +38,8 @@ export default function More() {
             <div className="lg:px-10 lg:pr-24 md:text-lg lg:text-xl lg:leading-8">
               <p className="mb-2">Webdevaaminen on kivaa!</p>
               <p className="mb-4">
-                Jos saisin valita yhden asian, jonka pelastaisin (puolisoni ja
-                koiranpennun lisäksi, tietenkin) palavasta talosta, valitsisin
+                Jos saisin valita yhden asian, jonka pelastaisin (kumppanini ja
+                koiranpentuni lisäksi, tietenkin) palavasta talosta, valitsisin
                 tietokoneen. Pelaaminen, kirjoittaminen ja tietokoneella
                 puuhailu ovat olleet minulle lapsesta saakka tärkeitä asioita.
               </p>

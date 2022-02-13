@@ -65,7 +65,7 @@ export default function Hexenhammer() {
           tälläiseen projektiin. Maksuliikennettä ensikertaa virittävälle tuli
           yllätyksenä Stripen hyvät ja tiukat turvavaatimukset: esimerkiksi
           asiakkaalta piti toimittaa Stripelle asuntolainan tosite, tmv melko
-          henkilökohtainen dokumentti, koska maksuliikeenteen järjestäjän piti
+          henkilökohtainen dokumentti, koska maksuliikenteen järjestäjän piti
           varmistua kauppiaan luonnollisen henkilön käyttöoikeudesta
           kiinteistöön, jossa Stripellä laskutettava liiketoiminta tapahtui.
         </p>

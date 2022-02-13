@@ -96,7 +96,7 @@ export default function Digitalents() {
           työtapaan -ja ympäristöön. Työhön kuului päivittäiset dailyt, jossa
           käytiin läpi tiimin jokaisen henkilön päivän tehtävät. Työt tehtiin
           sprinteissä, ja jokaisen sprintin päätteessä tehtiin esimiehen ja
-          tiimin kanssa sprint review,jossa yhdessä mietittiin projektien tilaa
+          tiimin kanssa sprint review, jossa yhdessä mietittiin projektien tilaa
           ja tulevia haasteita. Rakkauteni kanban-projektinhallintamenetelmään
           syventyi työsuhteeni aikana entisestään. Kaiken kaikkiaan työsuhde
           opetti minulle paljon, ja olen todella tyytyväinen saamaani

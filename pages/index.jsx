@@ -9,9 +9,7 @@ import NavBar from "../components/NavBar/Index"
 export default function Home() {
   return (
     <>
-      <Head>
-        <title className=" text-fuchsia-blue">Milican portfolio ✨</title>
-      </Head>
+      <Head></Head>
       <NavBar />
       <main>
         <Hero />
