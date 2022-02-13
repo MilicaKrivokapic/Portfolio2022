@@ -45,17 +45,6 @@ export default function RecentWork() {
           link="/Hexenhammer"
         />
         <WorkCard
-          cardName={"Norsupeli"}
-          cardColor={
-            " bg-gradient-to-b from-blue-800/90 to-fuchsia-blue-900/90"
-          }
-          bgImage={norsupeli}
-          bgSize="contain"
-          btnColor={"bg-pink-600"}
-          shadow={"shadow-sm shadow-pink-900"}
-          link="/Norsupeli"
-        />
-        <WorkCard
           cardName={"Digitalents"}
           cardColor={"bg-gradient-to-b from-blue-900/90 to-fuchsia-blue-900/80"}
           bgImage={digitalents}
@@ -63,6 +52,7 @@ export default function RecentWork() {
           shadow={"shadow-sm shadow-yellow-900"}
           link="/Digitalents"
         />
+
         <WorkCard
           cardName={"Portfolio"}
           cardColor={
@@ -74,6 +64,18 @@ export default function RecentWork() {
           shadow={"shadow-sm shadow-cyan-900"}
           link="/Portfolio"
         />
+        <WorkCard
+          cardName={"Norsupeli"}
+          cardColor={
+            " bg-gradient-to-b from-blue-800/90 to-fuchsia-blue-900/90"
+          }
+          bgImage={norsupeli}
+          bgSize="contain"
+          btnColor={"bg-pink-600"}
+          shadow={"shadow-sm shadow-pink-900"}
+          link="/Norsupeli"
+        />
+
         <WorkCard
           cardName={"Achievely"}
           cardColor={"bg-gradient-to-b from-blue-900/80 to-fuchsia-blue-900/90"}
