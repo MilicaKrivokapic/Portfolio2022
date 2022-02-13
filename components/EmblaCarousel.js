@@ -72,3 +72,5 @@ const EmblaCarousel = ({ media }) => {
 }
 
 export default EmblaCarousel
+
+// More info about the carousel: https://www.embla-carousel.com/

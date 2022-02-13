@@ -15,3 +15,4 @@ export const Thumb = ({ selected, onClick, imgSrc }) => (
     </button>
   </div>
 )
+// More info about the carousel: https://www.embla-carousel.com/
