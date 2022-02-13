@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden  bg-gradient-to-r from-[#010307] to-[#00003A] h-[15rem] md:h-[25rem] mt-6 ">
+    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden  bg-gradient-to-r from-[#010307] to-[#00003A] h-[15rem] md:h-[25rem] mt-24 ">
       <div className="w-full col-start-1 col-span-1 row-span-1 row-start-1 overflow-hidden ">
         <svg
           className="h-36 md:h-80 -ml-4 col-start-1 col-span-1 row-span-1 row-start-1"
