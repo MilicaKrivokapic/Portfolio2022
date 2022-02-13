@@ -67,11 +67,14 @@ export default function Portfolio() {
           kummittelemaan mieleni perukoille siinä määrin, että minun oli pakko
           siirtää idea olemassaolevaksi (muokaten ideaa niin, ettei se liikaa
           muistuttaisi alkuperäistä suunnitelmaa asiakkaalle). Mammuttimainen
-          M-kirjain onkin ollut varmasti koko portfolion työläin osio valmistaa.
+          M-kirjain onkin ollut varmasti koko portfolion työläin osio toteuttaa.
           Se, kuten kaikki muutkin päällekkäin olevat elementit on toteutettu
           gridillä, jonka ensimmäiseen soluun elementit on pakotettu
           päällekkäin, ja sitten käytetty sopivia CSS:n sekoitustiloja toivotun
-          efektin saamiseksi.
+          efektin saamiseksi. Heron animaatio sekä toinen gif kuvassani
+          määrittelivät lopulta koko sivuston väriteeman: päätin mennä
+          tummansinisellä, mustalla ja valkoisella, sekä sekoitella hieman muita
+          värejä mukaan sopivassa suhteessa.
         </p>
         <p className="mb-2">
           Halusin tehdä erikseen klikattavat kortit, joiden sisällä löytyy
@@ -79,18 +82,8 @@ export default function Portfolio() {
           jotka GitHubiin kirjoitettuna tuntuisivat liian yksityiskohtaisilta.
         </p>
 
-        <p className="mb-2">
-          Heron animaatio sekä toinen gifu kuvassani määrittelivät lopulta koko
-          sivuston väriteeman: päätin mennä tummansinisellä, mustalla ja
-          valkoisella, sekä sekoitella hieman muita värejä mukaan sopivassa
-          suhteessa.
-        </p>
-        <p className="mb-2">
-          Heron animaatio sekä toinen gifu kuvassani määrittelivät lopulta koko
-          sivuston väriteeman: päätin mennä tummansinisellä, mustalla ja
-          valkoisella, sekä sekoitella hieman muita värejä mukaan sopivassa
-          suhteessa.
-        </p>
+        <p className="mb-2"> Sivus</p>
+        <p className="mb-2"></p>
       </div>
     </CaseWrapper>
   )

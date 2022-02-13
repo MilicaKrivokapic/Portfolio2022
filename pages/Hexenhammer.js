@@ -26,7 +26,7 @@ export default function Hexenhammer() {
       linkSection={
         <a
           href="https://hexenhammerbooks.com/"
-          className="font-Quick font-bold text-center  hover:text-red-700 hover:underline"
+          className="font-Quick font-semibold text-center  hover:text-red-700 hover:underline"
         >
           Käy kurkkaamassa kirjakauppaa netistä
         </a>
@@ -48,12 +48,11 @@ export default function Hexenhammer() {
           irtoava navipalkki yms).
         </p>
         <p className="mb-2">
-          Teema toisti hyvin asiakkaan toivetta, vaikka sitä piti muokata jonkun
-          verran, se kuitenkin osoittautui parhaaksi vaihtoehdoksi. Teeman
-          kanssa tuli joitakin ongelmia, joita oli hieman vaikea selvittää
-          teeman tekijän tuen puuttumisen tähden. Kokeilun, hampaidenkiristelyn
-          ja kirottujen !important- css käskyjen avulla sivu saatiin kuitenkin
-          toimimaan juuri halutulla tavalla.
+          Teema vastasi hyvin asiakkaan toivetta pienten muutosten jälkeen.
+          Näiden muutosten kanssa tuli joitakin ongelmia, joita oli hieman
+          vaikea selvittää teeman tekijän tuen puuttumisen tähden. Kokeilun,
+          hampaidenkiristelyn ja kirottujen !important- css käskyjen avulla sivu
+          saatiin kuitenkin toimimaan juuri halutulla tavalla.
         </p>
         <p className="mb-2">
           Kauppapaikaksi valikoitui kehuttu ja varsin toimiva online-kauppapohja
@@ -71,19 +70,19 @@ export default function Hexenhammer() {
           kiinteistöön, jossa Stripellä laskutettava liiketoiminta tapahtui.
         </p>
         <p className="mb-2 mt-2">
-          Wordpressia tuunattiin niin, että asiakkaan oli helppo hallinnoida
-          verkkokauppansa tilaa ja lisätä uusia tuotteita. Asiakkaalle
-          kirjoitettiin myös kattava, juuri hänelle luotu ohjekirja ja
-          tietopaketti Wordpress-pohjaisen nettikaupan hallinnasta.
+          Wordpress-teemaa tuunattiin niin, että asiakkaan oli helppo
+          hallinnoida verkkokauppansa tilaa ja lisätä uusia tuotteita.
+          Asiakkaalle kirjoitettiin myös kattava, juuri hänelle luotu ohjekirja
+          ja tietopaketti Wordpress-pohjaisen nettikaupan hallinnasta.
         </p>
         <p>
           Projektin aikana palveluntarjoajaa piti vaihtaa: Ensin
           hosting-palveluksi valikoitiin Bluehost, mutta palveluehtosopimuksien
           ja hintojen muuttuessa tehtiin migraatio Cloudwaysiin. Migraatio oli
           helppo ja mukava tehdä, vaikka edellisen palvelusopimuksen katkaisu
-          vaati hieman keskustelua ja erinäisiä soittoja Intiaan. Lopulta kaikki
-          onnistui, asiakas oli tyytyväinen ja projekti saatiin
-          menestykseekkästi päätökseen.
+          vaati hieman keskustelua ja erinäisiä soittoja vahvasti murtaen
+          englantia puhuvaan asiakaspalveluun. Lopulta kaikki onnistui, asiakas
+          oli tyytyväinen ja projekti saatiin menestyksekkäästi päätökseen.
         </p>
       </div>
     </CaseWrapper>

@@ -25,7 +25,7 @@ export default function Digitalents() {
         <div className="flex flex-col justify-center items-center">
           <a
             href="https://digitalentshelsinki.fi"
-            className="font-Quick font-bold text-center hover:text-yellow-400 hover:underline my-3"
+            className="font-Quick font-semibold text-center hover:text-yellow-400 hover:underline my-3"
           >
             Käy kurkkaamassa kirjoittamiani Digitalentsin sivuja netissä
           </a>

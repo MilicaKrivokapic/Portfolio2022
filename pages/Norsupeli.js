@@ -45,15 +45,15 @@ export default function Norsupeli() {
     >
       <div className=" selection:bg-pink-700 selection:text-white">
         <p className="mb-2 ">
-          Norsupeli on pienimuotoinen ja keskeneräinen harrasteprojekti, josta
-          kuitenkin halusin vähän kirjoitella. Aloitin norsupelin tekemisen
+          Norsupeli on pienimuotoinen ja keskeneräinen harrasteprojekti, jonka
+          halusin portfoliossa kuitenkin mainita. Aloitin norsupelin tekemisen
           vuonna 2020 oman pixel art-harrastuksen vuoksi. Pikseligrafiikan
           tekeminen on äärimmäisen rentouttavaa, aivan kuin digitaalisen
-          ristipistotyön tekemistä. Käytän pixel artin tekemiseen ihanaa
-          ohjelmaa nimeltään{" "}
+          ristipistotyön tekemistä. Käytän pixel artin luomiseen ihanaa ohjelmaa
+          nimeltään{" "}
           <a
             href="https://www.aseprite.org/"
-            className=" text-pink-800 font-bold hover:text-pink-400"
+            className=" text-pink-800 font-semibold hover:text-pink-400"
           >
             Aseprite
           </a>
@@ -82,7 +82,7 @@ export default function Norsupeli() {
           Olin niin innoissani pelin teosta, että tein jopa{" "}
           <a
             href="https://soundcloud.com/milica-krivokapic-373268271/sets/norsupelin-musiikkia/s-6E5OSxOggWT?si=0b523539c46544558ec5323a4294143f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-            className="text-pink-800 hover:text-pink-400 font-bold"
+            className="text-pink-800 hover:text-pink-400 font-semibold"
           >
             biisejä
           </a>{" "}
@@ -95,7 +95,7 @@ export default function Norsupeli() {
           harjoittelemaan{" "}
           <a
             href="https://github.com/MilicaKrivokapic/lowkilo-theme"
-            className="text-pink-800 hover:text-pink-400 font-bold"
+            className="text-pink-800 hover:text-pink-400 font-semibold"
           >
             Wordpress-teeman tekemistä
           </a>
