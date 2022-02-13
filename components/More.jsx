@@ -66,7 +66,7 @@ export default function More() {
                 Liityin media-alan osuuskuntaan, ja aloin tehdä erinäisiä
                 keikkatöitä; olen mm. ollut kuvaamassa vanhoille
                 punk-legendoille musiikkivideoita, kuvannut tapahtumia (kuten
-                häitä ja messuja) sekä ääninäytellyt peleissä. Innostuin kovasti
+                häitä ja messuja) sekä tehnyt ääninäyttelyä. Innostuin kovasti
                 myös 3D-mallintamisesta, josta olisin halunnut saada itselleni
                 joskus työpaikan, mutta alan realititeetit ensimmäisen pidemmän
                 työharjoittelurupeaman ja verkostointitapahtumissa tapaamieni
