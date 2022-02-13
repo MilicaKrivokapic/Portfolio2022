@@ -1,6 +1,3 @@
-import woman from "./img/woman.jpg"
-import man from "./img/man.jpg"
-import lady from "./img/lady.jpg"
 import joonas from "./img/joonas.png"
 import mikko from "./img/mikko.png"
 import vaapu from "./img/vaapu.png"
@@ -8,7 +5,7 @@ import React from "react"
 import ChevronLeft from "./ChevronLeft"
 import ChevronRight from "./ChevronRight"
 
-const images = [woman, man, lady]
+const images = [joonas, mikko, vaapu]
 
 const comments = [
   {
