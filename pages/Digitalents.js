@@ -52,7 +52,7 @@ export default function Digitalents() {
         <p className="mb-2">
           Aloitin urani webdevaajana Helsingin Kaupungilla, Digitalents Helsinki
           -nimisessä hankkeessa. Digitalents oli mielestäni aivan mainio
-          ensimmäinen junior devaajan paikka minulle: sain paljon vapautta mutta
+          ensimmäinen junnudevaajan paikka minulle: sain paljon vapautta mutta
           myös vastuuta ja tasolleni sopivia projekteja. Digitalents Helsingin
           ideana on saattaa työelämään työelämästä pudonneita: esim. koulusta
           valmistuneita työttömiä, äitiyslomalta työelämään takaisin palaavia,
