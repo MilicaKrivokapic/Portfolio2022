@@ -27,7 +27,7 @@ export default function CaseWrapper({
           />
         </div>
 
-        <div className="fixed left-2 top-10 w-10 h-10 mix-blend-difference grid grid-cols-1 grid-rows-1 items-center justify-items-centere   ">
+        <div className="fixed left-2 top-10 w-10 h-10 mix-blend-difference grid grid-cols-1 grid-rows-1 items-center z-30">
           <div className="col-start-1 col-span-1 row-span-1 row-start-1">
             <a className="" href="./">
               <svg
@@ -79,7 +79,7 @@ export default function CaseWrapper({
       </div>
 
       <div className=" sm:px-8 md:px-28 xl:px-64 2xl:px-96 text-center bg-white">
-        <div className="font-Work text-base text-left bg-white border-[1px] border-gray-100/10 py-10 px-16 rounded-3xl backdrop-blur-sm -mt-[6rem] shadow-xl shadow-stone-600/20 z-50 relative">
+        <div className="font-Work text-base text-left bg-white border-[1px] border-gray-100/10 py-10 px-10 rounded-3xl backdrop-blur-sm -mt-[6rem] shadow-xl shadow-stone-600/20 relative lg:px-16 md:text-lg lg:text-xl lg:leading-8 z-0">
           {children}
 
           {media.length > 0 && (
