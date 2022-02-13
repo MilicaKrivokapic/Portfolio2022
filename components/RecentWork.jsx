@@ -17,21 +17,22 @@ export default function RecentWork() {
           <p>
             Mikäli haluat nähdä media-alan portfolioni, tsekkaa se osoitteessa{" "}
             <a
-              className=" text-jazzberry-jam-500 font-bold hover:text-jazzberry-jam-50"
+              className=" text-blue-900 font-bold hover:text-blue-600"
               href="https://www.milica.fi"
             >
               milica.fi
             </a>
+            .
           </p>
           <p>
-            Voit kurkata myös{" "}
+            Kurkkaa myös{" "}
             <a
-              className="text-jazzberry-jam-500 font-bold
-              hover:text-jazzberry-jam-50"
+              className="text-blue-900 font-bold hover:text-blue-600"
               href="/MilicaKrivokapic_CV.pdf"
             >
               CV:ni
             </a>
+            .
           </p>
         </div>
       </div>
