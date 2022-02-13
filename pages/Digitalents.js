@@ -25,16 +25,16 @@ export default function Digitalents() {
         <div className="flex flex-col justify-center items-center">
           <a
             href="https://digitalentshelsinki.fi"
-            className="font-Quick font-bold text-center hover:text-yellow-400 my-3	"
+            className="font-Quick font-bold text-center hover:text-yellow-400 hover:underline my-3	"
           >
             Käy kurkkaamassa kirjoittamiani Digitalentsin sivuja netissä
           </a>
-          <div className="flex group flex-row justify-center items-center text-black font-Quick font-bold hover:text-yellow-500 mb-4">
+          <div className="flex group flex-row justify-center items-center text-black font-Quick font-bold hover:text-fuchsia-300 mb-4">
             <svg
               width="36px"
               height="36px"
               viewBox="0 -0.5 25 25"
-              className="mr-4 group-hover:bg-yellow-400 group-hover:rounded-full"
+              className="mr-4 group-hover:bg-violet-400 group-hover:rounded-full"
             >
               <path
                 fill="#000"
@@ -48,7 +48,7 @@ export default function Digitalents() {
         </div>
       }
     >
-      <div className="xl:text-lg text-base font-Work">
+      <div className="  selection:bg-yellow-500 selection:text-white">
         <p className="mb-2">
           Aloitin urani webdevaajana Helsingin Kaupungilla, Digitalents Helsinki
           -nimisessä hankkeessa. Digitalents oli mielestäni aivan mainio

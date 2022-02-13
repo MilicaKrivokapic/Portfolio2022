@@ -24,12 +24,12 @@ export default function Norsupeli() {
       bgImage={paint.src}
       linkSection={
         <div className="flex flex-col justify-center items-start">
-          <div className="flex group flex-row justify-center items-center text-black font-Quick font-bold hover:text-pink-600 mb-4">
+          <div className="flex group flex-row justify-center items-center text-black font-Quick font-bold hover:text-fuchsia-300 mb-4">
             <svg
               width="36px"
               height="36px"
               viewBox="0 -0.5 25 25"
-              className="mr-4 group-hover:bg-pink-400 group-hover:rounded-full"
+              className="mr-4 group-hover:bg-violet-400 group-hover:rounded-full"
             >
               <path
                 fill="#000"
@@ -43,40 +43,69 @@ export default function Norsupeli() {
         </div>
       }
     >
-      <p className="mb-2">
-        Norsupeli on pienimuotoinen ja keskeneräinen harrasteprojekti, josta
-        kuitenkin halusin vähän kirjoitella. Aloitin norsupelin tekemisen oman
-        pixel art-harrastuksen vuoksi. Pikseligrafiikan tekeminen on äärimmäisen
-        rentouttavaa, aivan kuin digitaalisen ristipistotyön pistelyä. Käytän
-        pixel artin tekemiseen ihanaa ohjelmaa nimeltään{" "}
-        <a
-          href="https://www.aseprite.org/"
-          className=" text-pink-800 font-bold hover:text-pink-400"
-        >
-          Aseprite
-        </a>
-        . Aloitin pelin tekemisen tutoriaalista ensisijaisesti siksi, että
-        pääsisin käyttämään luomiani pikselihahmoja omassa projektissani.
-        Nopeasti peli lähti paisumaan toiminnallisemmaksi kuin mitä
-        tutoriaalissa neuvottiin. Opettelin sivussa myös Unityn
-        animaatiotyökaluja, ja yleisesti Unityn käyttöä.
-      </p>
-      <p>
-        Olin niin innoissani pelin teosta, että tein jopa{" "}
-        <a
-          href="https://soundcloud.com/milica-krivokapic-373268271/sets/norsupelin-musiikkia/s-6E5OSxOggWT?si=0b523539c46544558ec5323a4294143f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-          className="text-pink-800 hover:text-pink-400 font-bold"
-        >
-          biisejä
-        </a>{" "}
-        peliin - ilman <span className="italic">minkäänlaista</span>{" "}
-        musiikillista osaamista, joka kyllä kuuluu. 🤣
-      </p>
-      <p>
-        Pelin teko tyssäsi siihen, että minulla ei ollut sen tarkempaa
-        suunnitelmaa pelin käsikirjoituksesta tai juonesta, ja aloin
-        harjoittelemaan Wordpress-teemojen tekemistä.
-      </p>
+      <div className=" selection:bg-pink-700 selection:text-white">
+        <p className="mb-2 ">
+          Norsupeli on pienimuotoinen ja keskeneräinen harrasteprojekti, josta
+          kuitenkin halusin vähän kirjoitella. Aloitin norsupelin tekemisen
+          vuonna 2020 oman pixel art-harrastuksen vuoksi. Pikseligrafiikan
+          tekeminen on äärimmäisen rentouttavaa, aivan kuin digitaalisen
+          ristipistotyön tekemistä. Käytän pixel artin tekemiseen ihanaa
+          ohjelmaa nimeltään{" "}
+          <a
+            href="https://www.aseprite.org/"
+            className=" text-pink-800 font-bold hover:text-pink-400"
+          >
+            Aseprite
+          </a>
+          . Aloitin pelin tekemisen tutoriaalista ensisijaisesti siksi, että
+          pääsisin käyttämään luomiani pikselihahmoja omassa projektissani.
+          Nopeasti peli lähti paisumaan toiminnallisemmaksi kuin mitä
+          tutoriaalissa neuvottiin. Opettelin sivussa myös Unityn
+          animaatiotyökaluja, ja yleisesti Unityn käyttöä. Olin aikaisemmin
+          osallistunut Tampereen ammattikorkeakoulussa järjestettyyn
+          Pelifarmi-nimiseen lyhytkoulutukseen, jossa Unity tuli ensimmäisen
+          kerran tutuksi.
+        </p>
+        <p className="mb-2">
+          Tein peliin seuraavia toiminnallisuuksia:
+          <ul className="list-disc list-inside">
+            <li>Vihollisten tuhoaminen</li>
+            <li>Energian menettäminen</li>
+            <li>Energian saaminen</li>
+            <li>Pelaajan kontrollit</li>
+            <li>Scene vaihdokset</li>
+            <li>Dialogipuu</li>
+            <li>Animaatiot</li>
+          </ul>
+        </p>
+        <p>
+          Olin niin innoissani pelin teosta, että tein jopa{" "}
+          <a
+            href="https://soundcloud.com/milica-krivokapic-373268271/sets/norsupelin-musiikkia/s-6E5OSxOggWT?si=0b523539c46544558ec5323a4294143f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            className="text-pink-800 hover:text-pink-400 font-bold"
+          >
+            biisejä
+          </a>{" "}
+          peliin - ilman <span className="italic">minkäänlaista</span>{" "}
+          musiikillista osaamista, joka kyllä kuuluu. 🤣
+        </p>
+        <p>
+          Pelin teko tyssäsi siihen, että minulla ei ollut sen tarkempaa
+          suunnitelmaa pelin käsikirjoituksesta tai juonesta, ja aloin
+          harjoittelemaan{" "}
+          <a
+            href="https://github.com/MilicaKrivokapic/lowkilo-theme"
+            className="text-pink-800 hover:text-pink-400 font-bold"
+          >
+            Wordpress-teeman tekemistä
+          </a>
+          . Toivon tulevaisuudessa löytäväni aikaa uusiin peliprojekteihin,
+          sillä pelin teko on mielestäni todella rentouttavaa. Ennen pandemiaa
+          osallistuin myös lukuisiin IGDA:n (International Game Developers
+          Association) verkostointitapahtumiin, joista sain monia
+          IGDA-kavereita.
+        </p>
+      </div>
     </CaseWrapper>
   )
 }
