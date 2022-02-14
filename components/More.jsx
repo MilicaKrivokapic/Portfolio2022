@@ -68,7 +68,7 @@ export default function More() {
                 punk-legendoille musiikkivideoita, kuvannut tapahtumia (kuten
                 häitä ja messuja) sekä tehnyt ääninäyttelyä. Innostuin kovasti
                 myös 3D-mallintamisesta, josta olisin halunnut saada itselleni
-                joskus työpaikan, mutta alan realititeetit ensimmäisen pidemmän
+                joskus työpaikan, mutta ensimmäisen pidemmän
                 työharjoittelurupeaman ja verkostointitapahtumissa tapaamieni
                 ihmisten kertomusten jälkeen intoni pelia-alalla työskentelyä
                 kohtaan alkoi laimentua. Media-alan osuuskuntamme ajautui

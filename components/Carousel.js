@@ -24,7 +24,7 @@ const comments = [
     img: vaapu,
     name: "Vaapukka Postimerkki",
     title: "Pentu, kotitoimistokoira",
-    txt: ' "Milica on hyvä kotityökaveri, vaikka joskus minä kovasti puren ja suutun, kun hän anna minun tehdä tuhotöi... grrhöm, tarkoitan kotitöitäni." ',
+    txt: ' "Milica on hyvä kotityökaveri, vaikka joskus minä kovasti puren ja suutun, kun hän ei anna minun tehdä tuhotöi... grrhöm, tarkoitan kotitöitäni." ',
   },
 ]
 

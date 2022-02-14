@@ -66,18 +66,16 @@ export default function Norsupeli() {
           Pelifarmi-nimiseen lyhytkoulutukseen, jossa Unity tuli ensimmäisen
           kerran tutuksi.
         </p>
-        <p className="mb-2">
-          Tein peliin seuraavia toiminnallisuuksia:
-          <ul className="list-disc list-inside">
-            <li>Vihollisten tuhoaminen</li>
-            <li>Energian menettäminen</li>
-            <li>Energian saaminen</li>
-            <li>Pelaajan kontrollit</li>
-            <li>Scene vaihdokset</li>
-            <li>Dialogipuu</li>
-            <li>Animaatiot</li>
-          </ul>
-        </p>
+        <p>Tein peliin seuraavia toiminnallisuuksia:</p>
+        <ul className="list-disc list-inside mb-2">
+          <li>Vihollisten tuhoaminen</li>
+          <li>Energian menettäminen</li>
+          <li>Energian saaminen</li>
+          <li>Pelaajan kontrollit</li>
+          <li>Scene vaihdokset</li>
+          <li>Dialogipuu</li>
+          <li>Animaatiot</li>
+        </ul>
         <p>
           Olin niin innoissani pelin teosta, että tein jopa{" "}
           <a
