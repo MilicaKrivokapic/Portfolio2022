@@ -9,26 +9,26 @@ export default function RecentWork() {
   return (
     <section className="flex flex-col items-center">
       <div className=" text-center mt-28 flex flex-col justify-center items-center">
-        <h2 className="font-Quick font-bold text-2xl">
+        <h2 className="font-Quick font-bold text-3xl">
           Viimeaikaisia projektejani
         </h2>
-        <div className="items-center w-5/6 font-Work xl:w-[50rem] pt-4 text-sm md:text-lg">
+        <div className="items-center w-5/6 font-Work xl:w-[50rem] pt-4 text-sm md:text-xl">
           Tässä muutamia lähiaikoina toteuttamiani sivustoja.{" "}
           <p>
-            Mikäli haluat nähdä media-alan portfolioni, tsekkaa se osoitteessa{" "}
+            Tsekkaa{" "}
             <a
-              className=" text-blue-900 font-bold hover:text-blue-600"
+              className=" text-blue-900 font-semibold hover:text-blue-600"
               href="https://www.milica.fi"
             >
-              milica.fi
+              media-alan portfolioni
             </a>
             .
           </p>
           <p>
-            Kurkkaa myös{" "}
+            Täältä voit kurkata{" "}
             <a
-              className="text-blue-900 font-bold hover:text-blue-600"
-              href="/MilicaKrivokapic_CV.pdf"
+              className="text-blue-900 font-semibold hover:text-blue-600"
+              href="/MilicaKrivokapic_CV2022.pdf"
             >
               CV:ni
             </a>
