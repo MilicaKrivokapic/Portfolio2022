@@ -87,6 +87,9 @@ export default function RecentWork() {
           btnColor={"bg-emerald-500"}
           bgImage={achievely}
           shadow={"shadow-sm shadow-emerald-900"}
+          link="/#achievely"
+          id="achievely"
+          disableButton
         >
           {" "}
           <p className=" bg-red-600 text-white p-2 rounded leading-none flex items-center font-Work font-semibold drop-shadow-md mb-9">

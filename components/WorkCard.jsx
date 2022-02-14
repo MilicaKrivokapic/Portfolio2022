@@ -10,6 +10,7 @@ export default function WorkCard({
   shadow,
   btnColor,
   children,
+  disableButton,
 }) {
   return (
     <>
@@ -38,13 +39,15 @@ export default function WorkCard({
           <h3 className="text-white text-center font-Work font-bold mb-6 text-2xl drop-shadow-2xl xl:mb-13 ">
             {cardName}
           </h3>
-          <button
-            className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4  ${shadow} `}
-          >
-            <Link href={link ? link : ""}>
-              <a>Katso lisätietoja</a>
-            </Link>
-          </button>
+          {!disableButton && (
+            <button
+              className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4  ${shadow} `}
+            >
+              <Link href={link ? link : ""}>
+                <a>Katso lisätietoja</a>
+              </Link>
+            </button>
+          )}
         </div>
       </div>
     </>
