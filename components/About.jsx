@@ -5,14 +5,14 @@ const About = () => {
         <p className="xl:mb-2 mb-1">
           ...niin kuin mukava tai merkillinen. Tai sitten vaikka{" "}
           <span className=" text-fuchsia-300 font-semibold"> Milica </span>,
-          joka on nimeni.{" "}
-          <span className="font-semibold text-violet-300">
-            Hauska tavata!👋
-          </span>
+          joka on nimeni.
         </p>
-        <p className="mb-1 xl:mb-2 ">Minä rakennan sivuja nettiin.</p>
+        <p className="mb-1 xl:mb-2 font-semibold text-violet-300 ">
+          Hauska tavata!👋
+        </p>
         <p className="mb-1 xl:mb-2">
-          Tällä hetkellä etsin työtä webkehittäjänä.
+          Rakentelen sivuja nettiin, ja tällä hetkellä etsin työtä
+          webkehittäjänä.
         </p>
         <p>
           Intohimoni on tuottaa mieleenjääviä ja saavutettavia nettisivuja
