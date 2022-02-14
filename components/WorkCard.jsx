@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function WorkCard({
   bgImage,
   cardName,
@@ -37,9 +39,9 @@ export default function WorkCard({
           <button
             className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4  ${shadow} `}
           >
-            <a className="" href={link}>
-              Katso lisätietoja
-            </a>
+            <Link href={link ? link : ""}>
+              <a>Katso lisätietoja</a>
+            </Link>
           </button>
         </div>
       </div>

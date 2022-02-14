@@ -1,3 +1,4 @@
+import Link from "next/link"
 import EmblaCarousel from "../components/EmblaCarousel"
 
 export default function CaseWrapper({
@@ -29,42 +30,46 @@ export default function CaseWrapper({
 
         <div className="fixed left-2 top-10 w-10 h-10 mix-blend-difference grid grid-cols-1 grid-rows-1 items-center z-30">
           <div className="col-start-1 col-span-1 row-span-1 row-start-1">
-            <a className="" href="./">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className=""
-              >
-                <path
+            <Link href="./">
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
                   className=""
-                  fill="none"
-                  stroke="#fff"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="48"
-                  d="M244 400L100 256l144-144M120 256h292"
-                />
-              </svg>
-            </a>
+                >
+                  <path
+                    className=""
+                    fill="none"
+                    stroke="#fff"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="48"
+                    d="M244 400L100 256l144-144M120 256h292"
+                  />
+                </svg>
+              </a>
+            </Link>
           </div>
           <div className="col-start-1 col-span-1 row-span-1 row-start-1">
-            <a className="" href="./">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className="hover:animate-ping"
-              >
-                <path
-                  className=""
-                  fill="none"
-                  stroke="#fff"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="48"
-                  d="M244 400L100 256l144-144M120 256h292"
-                />
-              </svg>
-            </a>
+            <Link href="./">
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  className="hover:animate-ping"
+                >
+                  <path
+                    className=""
+                    fill="none"
+                    stroke="#fff"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="48"
+                    d="M244 400L100 256l144-144M120 256h292"
+                  />
+                </svg>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col justify-around items-start z-40">
