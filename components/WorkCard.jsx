@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 export default function WorkCard({
+  id,
   bgImage,
   cardName,
   link,
@@ -16,6 +17,7 @@ export default function WorkCard({
 
       <div
         className={`grid grid-cols-1 grid-rows-1 aspect-[3/2] rounded-2xl overflow-hidden`}
+        id={id}
       >
         <div
           className=" row-start-1 row-span-1 col-start-1 col-span-1 "

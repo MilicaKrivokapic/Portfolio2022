@@ -2,6 +2,7 @@ import Link from "next/link"
 import EmblaCarousel from "../components/EmblaCarousel"
 
 export default function CaseWrapper({
+  returnId,
   h2,
   bgImage,
   badges,
@@ -30,7 +31,7 @@ export default function CaseWrapper({
 
         <div className="fixed left-2 top-10 w-10 h-10 mix-blend-difference grid grid-cols-1 grid-rows-1 items-center z-30">
           <div className="col-start-1 col-span-1 row-span-1 row-start-1">
-            <Link href="./">
+            <Link href={`/#${returnId}`}>
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +52,7 @@ export default function CaseWrapper({
             </Link>
           </div>
           <div className="col-start-1 col-span-1 row-span-1 row-start-1">
-            <Link href="./">
+            <Link href={`/#${returnId}`}>
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

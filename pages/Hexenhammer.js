@@ -13,6 +13,7 @@ export default function Hexenhammer() {
   return (
     <CaseWrapper
       h2="Hexenhammer"
+      returnId="hexenhammer"
       badges={
         <>
           <WordpressBadge />

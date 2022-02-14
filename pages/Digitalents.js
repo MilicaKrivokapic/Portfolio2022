@@ -11,6 +11,7 @@ const media = [media1, media2, media3]
 export default function Digitalents() {
   return (
     <CaseWrapper
+      returnId="digitalents"
       h2="Digitalents Helsinki"
       badges={
         <>

@@ -12,6 +12,7 @@ const media = [media1, media2, media3]
 export default function Norsupeli() {
   return (
     <CaseWrapper
+      returnId="norsu"
       h2="Norsupeli"
       badges={
         <>

@@ -4,14 +4,12 @@ import Image from "next/image"
 import bg from "../components/img/bg-2moz.jpg"
 import CaseWrapper from "../components/CaseWrapper"
 
-import media1 from "../components/img/norse_nettiin.png"
-import media2 from "../components/img/norsenkoti.png"
-import media3 from "../components/img/norsupeli_talkkari.png"
 const media = []
 
 export default function Portfolio() {
   return (
     <CaseWrapper
+      returnId="portfolio"
       h2="Portfolio"
       badges={
         <>
@@ -74,17 +72,17 @@ export default function Portfolio() {
           Se, kuten kaikki muutkin päällekkäin olevat elementit on toteutettu
           gridillä, jonka ensimmäiseen soluun elementit on pakotettu
           päällekkäin, ja sitten käytetty sopivia CSS:n sekoitustiloja toivotun
-          efektin saamiseksi. Heron animaatio sekä toinen gif kuvassani
-          määrittelivät lopulta koko sivuston väriteeman: päätin mennä
-          tummansinisellä, mustalla ja valkoisella, sekä sekoitella hieman muita
-          värejä mukaan sopivassa suhteessa.
+          efektin saamiseksi. Heron animaatio sekä toinen tähtisade-gif "lisää
+          minusta" -osiossa määrittelivät lopulta koko sivuston väriteeman;
+          päätin mennä tummansinisellä, mustalla ja valkoisella, sekä lisätä
+          hieman muita värejä tehosteeksi sopivassa suhteessa.
         </p>
 
         <p className="mb-2">
           Sivusto on hostattu Vercelissä. Sivun github-repo on kytketty Vercelin
           automaattiseen deployment-hookiin, joten sivu päivittyy näppärästi
-          yhdellä puskulla githubiin. Päivittelen ja parantelen portfoliotani
-          toivottavasti usein.
+          yhdellä puskulla githubiin. Pyrin päivittämään ja parantamaan
+          portfoliotani usein.
         </p>
       </div>
     </CaseWrapper>

@@ -44,6 +44,7 @@ export default function RecentWork() {
           btnColor={"bg-red-700"}
           shadow={"shadow-sm shadow-red-900"}
           link="/Hexenhammer"
+          id="hexenhammer"
         />
         <WorkCard
           cardName={"Digitalents"}
@@ -52,6 +53,7 @@ export default function RecentWork() {
           btnColor={"bg-yellow-500"}
           shadow={"shadow-sm shadow-yellow-900"}
           link="/Digitalents"
+          id="digitalents"
         />
 
         <WorkCard
@@ -64,6 +66,7 @@ export default function RecentWork() {
           btnColor={"bg-cyan-600"}
           shadow={"shadow-sm shadow-cyan-900"}
           link="/Portfolio"
+          id="portfolio"
         />
         <WorkCard
           cardName={"Norsupeli"}
@@ -75,6 +78,7 @@ export default function RecentWork() {
           btnColor={"bg-pink-600"}
           shadow={"shadow-sm shadow-pink-900"}
           link="/Norsupeli"
+          id="norsu"
         />
 
         <WorkCard
