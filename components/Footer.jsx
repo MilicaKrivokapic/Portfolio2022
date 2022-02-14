@@ -176,7 +176,7 @@ export default function Footer() {
               <g></g>
             </svg>
 
-            <a className="ml-4" href="/MilicaKrivokapic_CV.pdf">
+            <a className="ml-4" href="/MilicaKrivokapic_CV2022.pdf">
               CV
             </a>
           </div>
