@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import RecentWork from "../components/RecentWork"
@@ -9,7 +8,6 @@ import NavBar from "../components/NavBar/Index"
 export default function Home() {
   return (
     <>
-      <Head></Head>
       <NavBar />
       <main>
         <Hero />
