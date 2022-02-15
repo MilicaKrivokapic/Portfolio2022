@@ -40,13 +40,13 @@ export default function WorkCard({
             {cardName}
           </h3>
           {!disableButton && (
-            <button
+            <div
               className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4  ${shadow} `}
             >
               <Link href={link ? link : ""}>
                 <a>Katso lisätietoja</a>
               </Link>
-            </button>
+            </div>
           )}
         </div>
       </div>
