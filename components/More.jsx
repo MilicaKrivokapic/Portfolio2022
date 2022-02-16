@@ -15,10 +15,11 @@ export default function More() {
                 backgroundPosition: "center",
                 clipPath: "circle(50%)",
                 shapeOutside: "circle(50%)",
+                alt: "stars blinking",
               }}
             ></div>
             <div className=" col-start-1 col-span-1 row-span-1 row-start-1  mix-blend-normal w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
-              <Image src={circle} />
+              <Image src={circle} alt="Milican kuva" />
             </div>
             <div
               className="col-start-1 col-span-1 row-span-1 row-start-1 -translate-x-12 mix-blend-screen w-[150px] h-[150px] md:w-[200px] md:h-[200px]"
@@ -27,6 +28,7 @@ export default function More() {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 clipPath: "circle(50%)",
+                alt: "stars blinking",
               }}
             ></div>
           </div>

@@ -41,7 +41,7 @@ export default function WorkCard({
           </h3>
           {!disableButton && (
             <div
-              className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4  ${shadow} `}
+              className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4 hover:text-black ${shadow} `}
             >
               <Link href={link ? link : ""}>
                 <a>Katso lisätietoja</a>

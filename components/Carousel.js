@@ -95,8 +95,12 @@ export default function Carousel() {
                 ref={refs[i]}
                 className="w-full flex-shrink-0 rounded-full flex flex-col items-center justify-start"
               >
-                <div className="lg:w-[18%] w-[50%] sm:w-[38%] rounded-full bg-transparent drop-shadow-md ">
-                  <img className="rounded-full" src={comment.img.src} />
+                <div className="lg:w-[18%] w-[50%] sm:w-[38%] rounded-full bg-transparent drop-shadow-md">
+                  <img
+                    alt="Suosittelijan kuva"
+                    className="rounded-full"
+                    src={comment.img.src}
+                  />
                 </div>
                 <span className="font-Work text-sm md:text-lg font-bold text-blue-800 mt-4">
                   {comment.name}

@@ -42,7 +42,7 @@ export default function RecentWork() {
           cardColor={"bg-gradient-to-b from-blue-800/80 to-fuchsia-blue-900/80"}
           bgImage={hexenhammer}
           btnColor={"bg-red-700"}
-          shadow={"shadow-sm shadow-red-900"}
+          shadow={"shadow-sm shadow-red-900 hover:bg-red-500"}
           link="/Hexenhammer"
           id="hexenhammer"
         />
@@ -50,7 +50,7 @@ export default function RecentWork() {
           cardName={"Digitalents"}
           cardColor={"bg-gradient-to-b from-blue-900/90 to-fuchsia-blue-900/80"}
           bgImage={digitalents}
-          btnColor={"bg-yellow-500"}
+          btnColor={"bg-emerald-700 hover:bg-emerald-500"}
           shadow={"shadow-sm shadow-yellow-900"}
           link="/Digitalents"
           id="digitalents"
@@ -63,7 +63,7 @@ export default function RecentWork() {
           }
           bgImage={portfolio}
           bgSize="contain"
-          btnColor={"bg-cyan-600"}
+          btnColor={"bg-cyan-700 hover:bg-cyan-500"}
           shadow={"shadow-sm shadow-cyan-900"}
           link="/Portfolio"
           id="portfolio"
@@ -75,7 +75,7 @@ export default function RecentWork() {
           }
           bgImage={norsupeli}
           bgSize="contain"
-          btnColor={"bg-pink-600"}
+          btnColor={"bg-pink-700 hover:bg-pink-500"}
           shadow={"shadow-sm shadow-pink-900"}
           link="/Norsupeli"
           id="norsu"
