@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="">
+    <section>
       <div className=" font-Work text-white bg-gradient-to-b from-[#061129] via-[#010141] to-[#020227] w-full pb-[22rem] md:text-xl text-base p-14 lg:text-center ">
         <p className="xl:mb-2 mb-1">
           ...niin kuin mukava tai merkillinen. Tai sitten vaikka{" "}

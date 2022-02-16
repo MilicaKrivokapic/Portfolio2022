@@ -1,11 +1,10 @@
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden  bg-gradient-to-r from-[#010307] to-[#00003A] h-[15rem] md:h-[25rem] mt-24 ">
+    <footer className="grid grid-cols-1 grid-rows-1 items-center justify-items-center overflow-hidden  bg-gradient-to-r from-[#010307] to-[#00003A] h-[15rem] md:h-[25rem] mt-24">
       <div className="w-full col-start-1 col-span-1 row-span-1 row-start-1 overflow-hidden ">
         <svg
           className="h-36 md:h-80 -ml-4 col-start-1 col-span-1 row-span-1 row-start-1"
           version="1.1"
-          id="Layer_1"
           viewBox="0 0 512.004 512.004"
         >
           <path
@@ -139,7 +138,6 @@ export default function Footer() {
           <div className="flex group flex-row justify-center items-center text-white font-Quick font-semibold hover:text-fuchsia-300  mb-4">
             <svg
               version="1.1"
-              id="Layer_1"
               width="36px"
               height="36px"
               viewBox="0 0 490.667 490.667"
@@ -202,6 +200,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
