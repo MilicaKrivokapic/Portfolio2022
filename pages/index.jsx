@@ -3,12 +3,10 @@ import About from "../components/About"
 import RecentWork from "../components/RecentWork"
 import More from "../components/More"
 import Testimonials from "../components/Testimonials"
-import NavBar from "../components/NavBar/Index"
 
 export default function Home() {
   return (
     <>
-      <NavBar />
       <main>
         <Hero />
         <About />
