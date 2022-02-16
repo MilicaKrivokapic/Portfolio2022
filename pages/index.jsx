@@ -14,8 +14,6 @@ export default function Home() {
         <More />
         <Testimonials />
       </main>
-
-      <footer className=""></footer>
     </>
   )
 }
