@@ -36,12 +36,12 @@ export default function WorkCard({
 
         <div className="xl:opacity-0 hover:opacity-100 bg-transparent h-full w-full flex flex-col items-center justify-center row-start-1 row-span-1 col-start-1 col-span-1 p-6 blurred transition duration-500 ease-out">
           {children}
-          <h3 className="text-white text-center font-Work font-bold mb-6 text-2xl drop-shadow-2xl xl:mb-13 ">
+          <h3 className="text-white text-center font-Work font-bold mb-6 text-2xl drop-shadow-2xl xl:mb-13  ">
             {cardName}
           </h3>
           {!disableButton && (
             <div
-              className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4 hover:text-black ${shadow} `}
+              className={`font-Work ${btnColor} font-semibold text-white rounded-xl py-2 px-4 hover:text-black  ${shadow} `}
             >
               <Link href={link ? link : ""}>
                 <a>Katso lisätietoja</a>
