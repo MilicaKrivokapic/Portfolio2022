@@ -19,7 +19,7 @@ const About = () => {
           uusilla teknologioilla.
         </p>
       </div>
-      <div className="w-full flex flex-col items-center ">
+      <div className="w-full flex flex-col items-center bg-[#f6f8fb]">
         <div className=" bg-white font-Work rounded-lg w-5/6 shadow-md grid grid-flow-row divide-y-2 md:grid-cols-2 md:divide-x-2 md:divide-y-0 divide-jazzberry-jam-700/10 text-center xl:text-xl overflow-hidden -mt-72 ">
           <div className="flex flex-col items-center py-8 px-5">
             <div className="w-14 text-white bg-gradient-to-br from-blue-700 to-black rounded-2xl p-2 mb-5">

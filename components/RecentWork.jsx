@@ -7,7 +7,7 @@ import achievely from "./img/achievely.png"
 
 export default function RecentWork() {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center bg-[#f6f8fb] bg-gradient-to-b from-[#f6f8fb] to-[#ffff]">
       <div className=" text-center mt-28 flex flex-col justify-center items-center">
         <h2 className="font-Quick font-bold text-3xl">
           Viimeaikaisia projektejani
