@@ -21,13 +21,10 @@ const Hero = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className=" col-start-1 col-span-1 row-span-1 row-start-1 xl:-mt-[27rem] xl:-mb-[17rem] font-Work font-semibold text-black mix-blend-screen bg-white text-[120vw] lg:text-[70vw] xl:text-[60vw] ">
+          <div className="xl:-mt-[27rem] xl:-mb-[17rem] font-Work font-semibold text-black mix-blend-screen bg-white text-[120vw] lg:text-[70vw] xl:text-[60vw] ">
             M
           </div>
         </div>
-        {/* <div className=" col-start-1 col-span-1 row-span-1 row-start-1 w-1/2">
-        <Image src={Milica} width={700} height={700} className="" />
-      </div> */}
       </div>
     </>
   )

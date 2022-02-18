@@ -13,7 +13,7 @@ export default function RecentWork() {
           Viimeaikaisia projektejani
         </h2>
         <div className="items-center w-5/6 font-Work xl:w-[50rem] pt-4 text-sm md:text-xl">
-          Tässä muutamia lähiaikoina toteuttamiani sivustoja.{" "}
+          Tässä muutamia viime aikoina toteuttamiani sivustoja.{" "}
           <p>
             Tsekkaa{" "}
             <a

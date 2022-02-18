@@ -72,7 +72,7 @@ export default function More() {
                 myös 3D-mallintamisesta, josta olisin halunnut saada itselleni
                 joskus työpaikan, mutta ensimmäisen pidemmän
                 työharjoittelurupeaman ja verkostointitapahtumissa tapaamieni
-                ihmisten kertomusten jälkeen intoni pelia-alalla työskentelyä
+                ihmisten kertomusten jälkeen intoni peli-alalla työskentelyä
                 kohtaan alkoi laimentua. Media-alan osuuskuntamme ajautui
                 konkurssiin ensimmäisenä koronavuonna. Päätin kokeilla jotain
                 uutta ja aivonystyröitä haastavaa: webdevaamista. Devaamisen
