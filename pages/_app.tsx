@@ -13,6 +13,16 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="author" content="Milica Krivokapic" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="darkbunny.png" />
+        <meta
+          property="og:image"
+          content="../components/img/portfoliomoz.jpg"
+        />
+        <meta
+          property="og:description"
+          content="Frontend-kehittäjä tarjolla! Tsekkaa portfolioni ->"
+        />
+        <meta property="og:title" content="Milican Frontend-portfolio" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
