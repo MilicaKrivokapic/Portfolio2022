@@ -21,6 +21,7 @@ export default function Hexenhammer() {
         </>
       }
       media={media}
+      carouselAlt="Ruutukaappauksia Hexenhammer-nettikirjakaupasta"
       gradient={"to-red-900"}
       heroImg={<Image src={skull} layout="responsive" quality={100}></Image>}
       bgImage={bg.src}

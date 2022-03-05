@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import { Thumb } from "./EmblaCarouselThumb"
 
-const EmblaCarousel = ({ media }) => {
+const EmblaCarousel = ({ media, alt }) => {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [mainViewportRef, embla] = useEmblaCarousel({ skipSnaps: false })
   const [thumbViewportRef, emblaThumbs] = useEmblaCarousel({
@@ -44,7 +44,7 @@ const EmblaCarousel = ({ media }) => {
                   <img
                     className="embla__slide__img"
                     src={mediaByIndex(index).src}
-                    alt="A cool cat."
+                    alt={alt}
                   />
                 </div>
               </div>
@@ -62,6 +62,7 @@ const EmblaCarousel = ({ media }) => {
                 selected={index === selectedIndex}
                 imgSrc={mediaByIndex(index).src}
                 key={index}
+                alt={alt}
               />
             ))}
           </div>

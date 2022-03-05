@@ -11,6 +11,7 @@ export default function CaseWrapper({
   children,
   linkSection,
   media,
+  carouselAlt,
 }) {
   return (
     <section className="flex flex-col justify-center items-center relative">
@@ -90,7 +91,7 @@ export default function CaseWrapper({
 
           {media.length > 0 && (
             <div className="text-lg font-bold text-center">
-              <EmblaCarousel media={media} />
+              <EmblaCarousel media={media} alt={carouselAlt} />
             </div>
           )}
           {/* This comparison ensures that if there are no pictures in the media array, it will not be rendered. */}

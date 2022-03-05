@@ -19,6 +19,7 @@ export default function Digitalents() {
         </>
       }
       media={media}
+      carouselAlt="Ruutukaappauksia Digitalents-sivulta"
       gradient={"to-yellow-600"}
       heroImg={<Image src={Coding} layout="responsive" quality={100}></Image>}
       bgImage={waves.src}

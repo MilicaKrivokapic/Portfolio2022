@@ -20,6 +20,7 @@ export default function Norsupeli() {
         </>
       }
       media={media}
+      carouselAlt="Ruutukaappauksia Norsupelistä"
       gradient={"to-pink-700"}
       heroImg={<Image src={Norse} layout="responsive" quality={100}></Image>}
       bgImage={paint.src}
