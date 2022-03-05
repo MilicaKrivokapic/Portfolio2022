@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function More() {
   return (
-    <section>
+    <section aria-label="Lisää minusta">
       <div className="w-full flex justify-center">
         <div className="flex lg:flex-row-reverse flex-col justify-around mb-32 bg-gradient-to-b lg:bg-gradient-to-l from-[#010307] to-[#00003A] text-white py-20 w-full px-7 xl:px-20 lg:w-5/6 lg:rounded-2xl mt-40">
           <div className="grid grid-cols-1 grid-rows-1 h-full items-center justify-items-center xl:justify-items-start xl:items-center ml-10 -mt-36 sm:-mt-44 lg:-mt-0">
@@ -89,7 +89,10 @@ export default function More() {
                 uusiin haasteisiin!
               </p>
 
-              <div className=" font-Quick don text-center mt-10">
+              <div
+                className=" font-Quick don text-center mt-10"
+                aria-labelledby="linkedin"
+              >
                 <p className="font-Parisienne font-light text-4xl">
                   Milica Krivokapic
                 </p>
@@ -97,6 +100,7 @@ export default function More() {
                 <a
                   className="font-Quick font-black text-fuchsia-300 hover:text-violet-400"
                   href="https://www.linkedin.com/in/milica-krivokapic/"
+                  id="linkedin"
                 >
                   Laita minulle linkkarissa viesti
                 </a>{" "}
