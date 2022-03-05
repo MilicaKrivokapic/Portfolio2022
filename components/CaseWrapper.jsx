@@ -56,6 +56,7 @@ export default function CaseWrapper({
             <Link href={`/#${returnId}`}>
               <a>
                 <svg
+                  aria-label="takaisin pääsivulle"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
                   className="hover:animate-ping"
