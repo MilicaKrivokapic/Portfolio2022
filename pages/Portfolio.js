@@ -3,8 +3,10 @@ import AstroDoggo from "../components/img/AstroDog.png"
 import Image from "next/image"
 import bg from "../components/img/bg-2moz.jpg"
 import CaseWrapper from "../components/CaseWrapper"
+import media1 from "../components/img/portfolio/lh_desktop.png"
+import media2 from "../components/img/portfolio/lh_mobile.png"
 
-const media = []
+const media = [media1, media2]
 
 export default function Portfolio() {
   return (
@@ -77,14 +79,29 @@ export default function Portfolio() {
           päätin mennä tummansinisellä, mustalla ja valkoisella, sekä lisätä
           hieman muita värejä tehosteeksi sopivassa suhteessa.
         </p>
-
         <p className="mb-2">
-          Sivusto on hostattu Vercelissä. Sivun github-repo on kytketty Vercelin
-          automaattiseen deployment-hookiin, joten sivu päivittyy näppärästi
-          yhdellä puskulla githubiin. Pyrin päivittämään ja parantamaan
-          portfoliotani usein.
+          Aluksi sivustolta oli unohtunut lisätä jonkun verran aria-sääntöjä
+          diveihin, mutta työkalujen avulla pystyi helposti huomaamaan minne
+          säännöt piti lisätä. Sivusto on testattu seuraavilla
+          saavutettavuustyökaluilla ilman suoria virheitä:
+          <ul className="list-disc list-inside mb-3">
+            <li>Tota11y</li>
+            <li>aXe Dev Tools</li>
+            <li>Lighthouse</li>
+            <li>NVDA</li>
+          </ul>
         </p>
       </div>
+
+      <p className="mb-2">
+        Sivusto on hostattu Vercelissä. Sivun github-repo on kytketty Vercelin
+        automaattiseen deployment-hookiin, joten sivu päivittyy näppärästi
+        yhdellä puskulla githubiin. Pyrin päivittämään ja parantamaan
+        portfoliotani usein.
+      </p>
+      <p className="mb-2">
+        Alla screenshotit Lighthouse-testeistä portfoliollani.
+      </p>
     </CaseWrapper>
   )
 }
