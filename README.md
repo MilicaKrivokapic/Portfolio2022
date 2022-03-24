@@ -9,6 +9,10 @@
 
 ### ✍️ Portfolio on kirjoitettu Next.js:llä ja Tailwindillä
 
+### ⏩ Sivun nopeuteen on pyritty kiinnittämään huomiota
+
+### 🔎 Koodi on tarkastettu ja mennyt läpi ilman kriittisiä virheitä seuraavilla saavutettavuustyökaluilla: Tota11y, aXe DevTools, NVDA, Lighthouse
+
 ### 💡 Koodiin saa mieluusti ehdottaa parannuksia
 
 ---
