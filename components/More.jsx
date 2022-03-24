@@ -21,18 +21,7 @@ export default function More() {
             <div className=" col-start-1 col-span-1 row-span-1 row-start-1  mix-blend-normal w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
               <Image src={circle} alt="Milican kuva" />
             </div>
-            <div
-              className="col-start-1 col-span-1 row-span-1 row-start-1 -translate-x-12 mix-blend-screen w-[150px] h-[150px] md:w-[200px] md:h-[200px]"
-              style={{
-                backgroundImage: "url(stars.gif)",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                clipPath: "circle(50%)",
-                alt: "stars blinking",
-              }}
-            ></div>
           </div>
-
           <div className="font-Work flex flex-col justify-center items-center text-left">
             <h2 className="text-center text-3xl font-Quick font-semibold pb-7 py-14 ">
               Lisää minusta
