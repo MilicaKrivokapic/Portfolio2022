@@ -25,12 +25,6 @@ export default function Digitalents() {
       bgImage={waves.src}
       linkSection={
         <div className="flex flex-col justify-center items-center">
-          <a
-            href="https://digitalentshelsinki.fi"
-            className="font-Quick font-semibold text-center hover:text-yellow-400 hover:underline my-3"
-          >
-            Käy kurkkaamassa kirjoittamiani Digitalentsin sivuja netissä
-          </a>
           <div className="flex group flex-row justify-center items-center text-black font-Quick font-bold hover:text-fuchsia-300 mb-4">
             <svg
               width="36px"
